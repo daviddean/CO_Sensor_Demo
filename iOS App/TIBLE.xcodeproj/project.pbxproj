@@ -1,0 +1,1771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9832B301171474CB00AA0F05 /* warning_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9832B300171474CB00AA0F05 /* warning_icon@2x.png */; };
+		983595FA171CB38500B6CEED /* background_graph_landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 983595F5171CB38500B6CEED /* background_graph_landscape.png */; };
+		983595FB171CB38500B6CEED /* background_graph_landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 983595F6171CB38500B6CEED /* background_graph_landscape@2x.png */; };
+		983595FC171CB38500B6CEED /* background_sensor_info_landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 983595F7171CB38500B6CEED /* background_sensor_info_landscape.png */; };
+		983595FD171CB38500B6CEED /* background_sensor_info_landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 983595F8171CB38500B6CEED /* background_sensor_info_landscape@2x.png */; };
+		9836EAB41731B9E2000757B2 /* progress-bar-landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9836EAB01731B9E2000757B2 /* progress-bar-landscape~ipad.png */; };
+		9836EAB51731B9E2000757B2 /* progress-bar-portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9836EAB11731B9E2000757B2 /* progress-bar-portrait~ipad.png */; };
+		9836EAB61731B9E2000757B2 /* progress-bar@2x-landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9836EAB21731B9E2000757B2 /* progress-bar@2x-landscape~ipad.png */; };
+		9836EAB71731B9E2000757B2 /* progress-bar@2x-portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9836EAB31731B9E2000757B2 /* progress-bar@2x-portrait~ipad.png */; };
+		983CE1B2171DFA5C0054BBB6 /* refresh_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 983CE1B0171DFA5C0054BBB6 /* refresh_button.png */; };
+		983CE1B3171DFA5C0054BBB6 /* refresh_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 983CE1B1171DFA5C0054BBB6 /* refresh_button@2x.png */; };
+		9854F843170B62AD00FC7647 /* background_graph_portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9854F838170B62AD00FC7647 /* background_graph_portrait@2x.png */; };
+		9854F844170B62AD00FC7647 /* background_sensor_info_portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9854F839170B62AD00FC7647 /* background_sensor_info_portrait@2x.png */; };
+		9854F845170B62AD00FC7647 /* checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9854F83A170B62AD00FC7647 /* checkmark@2x.png */; };
+		9854F846170B62AD00FC7647 /* formula_sticky@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9854F83B170B62AD00FC7647 /* formula_sticky@2x.png */; };
+		9854F847170B62AD00FC7647 /* formula@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9854F83C170B62AD00FC7647 /* formula@2x.png */; };
+		9854F848170B62AD00FC7647 /* graph_annotation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9854F83D170B62AD00FC7647 /* graph_annotation@2x.png */; };
+		9854F849170B62AD00FC7647 /* graph_sticky@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9854F83E170B62AD00FC7647 /* graph_sticky@2x.png */; };
+		9854F84A170B62AD00FC7647 /* message_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9854F83F170B62AD00FC7647 /* message_background@2x.png */; };
+		9854F84C170B62AD00FC7647 /* red_cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9854F841170B62AD00FC7647 /* red_cross@2x.png */; };
+		9854F84D170B62AD00FC7647 /* sensor_sticky@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9854F842170B62AD00FC7647 /* sensor_sticky@2x.png */; };
+		9854F852170B675D00FC7647 /* background_graph_title_portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 9854F84E170B675D00FC7647 /* background_graph_title_portrait.png */; };
+		9854F853170B675D00FC7647 /* background_graph_title_portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9854F84F170B675D00FC7647 /* background_graph_title_portrait@2x.png */; };
+		9854F855170B675D00FC7647 /* button_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9854F851170B675D00FC7647 /* button_background@2x.png */; };
+		986B6C48170C9FE3008981CD /* gradient_bg_stretch.png in Resources */ = {isa = PBXBuildFile; fileRef = 986B6C47170C9FE3008981CD /* gradient_bg_stretch.png */; };
+		987E87981713601B00415BD1 /* alert_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 987E87961713601B00415BD1 /* alert_button.png */; };
+		987E87991713601B00415BD1 /* alert_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 987E87971713601B00415BD1 /* alert_button@2x.png */; };
+		98808BEF17345BD600E68ED4 /* ti.png in Resources */ = {isa = PBXBuildFile; fileRef = 98808BED17345BD600E68ED4 /* ti.png */; };
+		98808BF017345BD600E68ED4 /* ti@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98808BEE17345BD600E68ED4 /* ti@2x.png */; };
+		989C2F671713502C0057F728 /* alert_view_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 989C2F661713502C0057F728 /* alert_view_background@2x.png */; };
+		98AE3E71170CD76700D33EC4 /* tab_bar_sensor_icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 98AE3E70170CD76700D33EC4 /* tab_bar_sensor_icon~ipad.png */; };
+		98B2A137170DE9EA00DD532F /* info_screen@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 98B2A133170DE9EA00DD532F /* info_screen@2x~ipad.png */; };
+		98D5F73E170E2640002C8F42 /* progress-bar@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D5F73C170E2640002C8F42 /* progress-bar@2x~ipad.png */; };
+		98D5F73F170E2640002C8F42 /* progress-bar~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D5F73D170E2640002C8F42 /* progress-bar~ipad.png */; };
+		98D5F742170E280F002C8F42 /* progress-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D5F740170E280E002C8F42 /* progress-bar.png */; };
+		98D5F743170E280F002C8F42 /* progress-bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D5F741170E280E002C8F42 /* progress-bar@2x.png */; };
+		98D5F745170E2DFA002C8F42 /* info_screen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D5F744170E2DFA002C8F42 /* info_screen@2x.png */; };
+		98DBD15E1715DF9C004F5807 /* alert_view_content_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 98DBD15C1715DF9C004F5807 /* alert_view_content_background.png */; };
+		98DBD15F1715DF9C004F5807 /* alert_view_content_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98DBD15D1715DF9C004F5807 /* alert_view_content_background@2x.png */; };
+		98DBD1641715FFC9004F5807 /* pause_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 98DBD1601715FFC9004F5807 /* pause_button.png */; };
+		98DBD1651715FFC9004F5807 /* pause_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98DBD1611715FFC9004F5807 /* pause_button@2x.png */; };
+		98DBD1661715FFC9004F5807 /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 98DBD1621715FFC9004F5807 /* play_button.png */; };
+		98DBD1671715FFC9004F5807 /* play_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98DBD1631715FFC9004F5807 /* play_button@2x.png */; };
+		98DBD1691716055D004F5807 /* tab_bar_sensor_icon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 98DBD1681716055D004F5807 /* tab_bar_sensor_icon@2x~ipad.png */; };
+		98DBD16C17161621004F5807 /* krasamo.png in Resources */ = {isa = PBXBuildFile; fileRef = 98DBD16A17161620004F5807 /* krasamo.png */; };
+		98DBD16D17161621004F5807 /* krasamo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98DBD16B17161620004F5807 /* krasamo@2x.png */; };
+		98EF066C17173EE600E1A5F9 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF066A17173EE500E1A5F9 /* Default-Portrait.png */; };
+		98EF066D17173EE600E1A5F9 /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF066B17173EE600E1A5F9 /* Default-Portrait@2x.png */; };
+		98EF067017173F8B00E1A5F9 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF066E17173F8B00E1A5F9 /* Default-Landscape.png */; };
+		98EF067117173F8B00E1A5F9 /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF066F17173F8B00E1A5F9 /* Default-Landscape@2x.png */; };
+		98EF0678171745CF00E1A5F9 /* tible_icon_appstore-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF0672171745CE00E1A5F9 /* tible_icon_appstore-512.png */; };
+		98EF0679171745CF00E1A5F9 /* tible_icon_appstore-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF0673171745CE00E1A5F9 /* tible_icon_appstore-1024.png */; };
+		98EF067A171745CF00E1A5F9 /* tible_icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF0674171745CE00E1A5F9 /* tible_icon-57.png */; };
+		98EF067B171745CF00E1A5F9 /* tible_icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF0675171745CE00E1A5F9 /* tible_icon-72.png */; };
+		98EF067C171745CF00E1A5F9 /* tible_icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF0676171745CE00E1A5F9 /* tible_icon-114.png */; };
+		98EF067D171745CF00E1A5F9 /* tible_icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF0677171745CE00E1A5F9 /* tible_icon-144.png */; };
+		98EF067F1717461C00E1A5F9 /* tible_icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF067E1717461C00E1A5F9 /* tible_icon-114.png */; };
+		98EF06811717462700E1A5F9 /* tible_icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF06801717462700E1A5F9 /* tible_icon-57.png */; };
+		98EF06831717463700E1A5F9 /* tible_icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF06821717463700E1A5F9 /* tible_icon-144.png */; };
+		98EF06851717463B00E1A5F9 /* tible_icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF06841717463B00E1A5F9 /* tible_icon-72.png */; };
+		A4427FEB17249FCC005C2299 /* TIBLEDevicesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4427FE817249FCC005C2299 /* TIBLEDevicesManager.m */; };
+		A4427FEC17249FCC005C2299 /* TIBLESettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4427FEA17249FCC005C2299 /* TIBLESettingsManager.m */; };
+		A44280471725881A005C2299 /* Avenir.ttc in Resources */ = {isa = PBXBuildFile; fileRef = A44280461725881A005C2299 /* Avenir.ttc */; };
+		A442804A17259490005C2299 /* TIBLEAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A442804917259490005C2299 /* TIBLEAlertManager.m */; };
+		A446F026174C08AD00E7100B /* TIBLEScatterPlotViewController+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A446F025174C08AA00E7100B /* TIBLEScatterPlotViewController+Utils.m */; };
+		A458036016EFCCAE0019023A /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A458035E16EFCCA20019023A /* CoreBluetooth.framework */; };
+		A46E64361729D73800C6C21E /* TIBLERawSampleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A46E64351729D73700C6C21E /* TIBLERawSampleModel.m */; };
+		A47B487E17121FEC009FAF6D /* alert_view_background.png in Resources */ = {isa = PBXBuildFile; fileRef = A47B487617121FBA009FAF6D /* alert_view_background.png */; };
+		A4A47D19172786A100841729 /* TIBLEScatterPlotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A47D16172786A100841729 /* TIBLEScatterPlotViewController.m */; };
+		A4A70B4B1730623100F497E6 /* TIBLEClearBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A70B4A1730623100F497E6 /* TIBLEClearBackgroundView.m */; };
+		A4A70B4F173076BC00F497E6 /* TIBLEDevicesListAlertWindow~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4A70B4D173076BC00F497E6 /* TIBLEDevicesListAlertWindow~iphone.xib */; };
+		A4A70B51173076BC00F497E6 /* TIBLEDevicesListAlertWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4A70B4E173076BC00F497E6 /* TIBLEDevicesListAlertWindow.xib */; };
+		A4ABCBDC16F772D20075B22C /* button_background.png in Resources */ = {isa = PBXBuildFile; fileRef = A4ABCBBD16F772D20075B22C /* button_background.png */; };
+		A4ABCBDF16F772D20075B22C /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = A4ABCBC016F772D20075B22C /* checkmark.png */; };
+		A4ABCBE116F772D20075B22C /* formula.png in Resources */ = {isa = PBXBuildFile; fileRef = A4ABCBC216F772D20075B22C /* formula.png */; };
+		A4ABCBE316F772D20075B22C /* formula_sticky.png in Resources */ = {isa = PBXBuildFile; fileRef = A4ABCBC416F772D20075B22C /* formula_sticky.png */; };
+		A4ABCBE416F772D20075B22C /* graph_annotation.png in Resources */ = {isa = PBXBuildFile; fileRef = A4ABCBC516F772D20075B22C /* graph_annotation.png */; };
+		A4ABCBE616F772D20075B22C /* graph_sticky.png in Resources */ = {isa = PBXBuildFile; fileRef = A4ABCBC716F772D20075B22C /* graph_sticky.png */; };
+		A4ABCBE716F772D20075B22C /* info_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = A4ABCBC816F772D20075B22C /* info_screen.png */; };
+		A4ABCBE816F772D20075B22C /* info_screen~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A4ABCBC916F772D20075B22C /* info_screen~ipad.png */; };
+		A4ABCBE916F772D20075B22C /* message_background.png in Resources */ = {isa = PBXBuildFile; fileRef = A4ABCBCA16F772D20075B22C /* message_background.png */; };
+		A4ABCBEC16F772D20075B22C /* sensor_sticky.png in Resources */ = {isa = PBXBuildFile; fileRef = A4ABCBCD16F772D20075B22C /* sensor_sticky.png */; };
+		A4ABCBF116F772D20075B22C /* tab_bar_graph_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4ABCBD216F772D20075B22C /* tab_bar_graph_icon@2x.png */; };
+		A4ABCBF216F772D20075B22C /* tab_bar_percentage_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4ABCBD316F772D20075B22C /* tab_bar_percentage_icon@2x.png */; };
+		A4ABCBF316F772D20075B22C /* tab_bar_sensor_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4ABCBD416F772D20075B22C /* tab_bar_sensor_icon@2x.png */; };
+		A4ABCBF416F772D20075B22C /* tab_bar_settings_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4ABCBD516F772D20075B22C /* tab_bar_settings_icon@2x.png */; };
+		A4ABCBF516F772D20075B22C /* tab_bar_wifi_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4ABCBD616F772D20075B22C /* tab_bar_wifi_icon@2x.png */; };
+		A4ABCBF616F772D20075B22C /* warning_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A4ABCBD716F772D20075B22C /* warning_icon.png */; };
+		A4ABCBF916F775DF0075B22C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4ABCBF716F775C60075B22C /* QuartzCore.framework */; };
+		A4ABCC0F16F803CA0075B22C /* red_cross.png in Resources */ = {isa = PBXBuildFile; fileRef = A4ABCC0E16F803CA0075B22C /* red_cross.png */; };
+		A4B168B917248A900085A3B8 /* CBUUID+StringExtraction.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B167C617248A8F0085A3B8 /* CBUUID+StringExtraction.m */; };
+		A4B168BA17248A900085A3B8 /* TIBLECharacteristics.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B167C817248A8F0085A3B8 /* TIBLECharacteristics.m */; };
+		A4B168BB17248A900085A3B8 /* TIBLEDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B167CA17248A8F0085A3B8 /* TIBLEDiscovery.m */; };
+		A4B168BC17248A900085A3B8 /* TIBLEPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B167CC17248A8F0085A3B8 /* TIBLEPeripheral.m */; };
+		A4B168BD17248A900085A3B8 /* TIBLEService.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B167CE17248A8F0085A3B8 /* TIBLEService.m */; };
+		A4B168BE17248A900085A3B8 /* TIBLEUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B167D017248A8F0085A3B8 /* TIBLEUtilities.m */; };
+		A4B168BF17248A900085A3B8 /* colorPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A4B167D217248A8F0085A3B8 /* colorPicker.bundle */; };
+		A4B168C017248A900085A3B8 /* NEOColorPickerBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B167D417248A8F0085A3B8 /* NEOColorPickerBaseViewController.m */; };
+		A4B168C117248A900085A3B8 /* NEOColorPickerFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B167D617248A8F0085A3B8 /* NEOColorPickerFavoritesViewController.m */; };
+		A4B168C217248A900085A3B8 /* NEOColorPickerFavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B167D717248A8F0085A3B8 /* NEOColorPickerFavoritesViewController.xib */; };
+		A4B168C317248A900085A3B8 /* NEOColorPickerGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B167D917248A8F0085A3B8 /* NEOColorPickerGradientView.m */; };
+		A4B168C417248A900085A3B8 /* NEOColorPickerHSLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B167DB17248A8F0085A3B8 /* NEOColorPickerHSLViewController.m */; };
+		A4B168C517248A900085A3B8 /* NEOColorPickerHSLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B167DC17248A8F0085A3B8 /* NEOColorPickerHSLViewController.xib */; };
+		A4B168C617248A900085A3B8 /* NEOColorPickerHueGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B167DE17248A8F0085A3B8 /* NEOColorPickerHueGridViewController.m */; };
+		A4B168C717248A900085A3B8 /* NEOColorPickerHueGridViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B167DF17248A8F0085A3B8 /* NEOColorPickerHueGridViewController.xib */; };
+		A4B168C817248A900085A3B8 /* NEOColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B167E117248A8F0085A3B8 /* NEOColorPickerViewController.m */; };
+		A4B168C917248A900085A3B8 /* NEOColorPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B167E217248A8F0085A3B8 /* NEOColorPickerViewController.xib */; };
+		A4B168CA17248A900085A3B8 /* UIColor+NEOColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B167E417248A8F0085A3B8 /* UIColor+NEOColor.m */; };
+		A4B168CB17248A900085A3B8 /* TIBLECharacteristicsSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B167E717248A8F0085A3B8 /* TIBLECharacteristicsSingleton.m */; };
+		A4B168CC17248A900085A3B8 /* TIBLESensorConfigurationConstants.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4B167E817248A8F0085A3B8 /* TIBLESensorConfigurationConstants.plist */; };
+		A4B168CD17248A900085A3B8 /* TIBLESensorProfileConstants.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4B167EA17248A8F0085A3B8 /* TIBLESensorProfileConstants.plist */; };
+		A4B168D517248A900085A3B8 /* TIBLERawDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1684C17248A8F0085A3B8 /* TIBLERawDataModel.m */; };
+		A4B168D617248A900085A3B8 /* TIBLESampleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1684E17248A8F0085A3B8 /* TIBLESampleModel.m */; };
+		A4B168D717248A900085A3B8 /* TIBLESampleQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1685017248A8F0085A3B8 /* TIBLESampleQueue.m */; };
+		A4B168D817248A900085A3B8 /* TIBLESavedSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1685217248A8F0085A3B8 /* TIBLESavedSensor.m */; };
+		A4B168D917248A900085A3B8 /* TIBLESensorMath.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1685417248A8F0085A3B8 /* TIBLESensorMath.m */; };
+		A4B168DA17248A900085A3B8 /* TIBLESensorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1685617248A8F0085A3B8 /* TIBLESensorModel.m */; };
+		A4B168DB17248A900085A3B8 /* TIBLESensorProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1685817248A8F0085A3B8 /* TIBLESensorProfile.m */; };
+		A4B168DE17248A900085A3B8 /* UIColor+LightAndDark.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1686117248A8F0085A3B8 /* UIColor+LightAndDark.m */; };
+		A4B168DF17248A900085A3B8 /* UIImageView+GeometryConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1686317248A8F0085A3B8 /* UIImageView+GeometryConversion.m */; };
+		A4B168E017248A900085A3B8 /* TIBLEColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1686617248A8F0085A3B8 /* TIBLEColorCell.m */; };
+		A4B168E117248A900085A3B8 /* TIBLEColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B1686717248A8F0085A3B8 /* TIBLEColorCell.xib */; };
+		A4B168E217248A900085A3B8 /* TIBLESelectableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1686917248A8F0085A3B8 /* TIBLESelectableCell.m */; };
+		A4B168E317248A900085A3B8 /* TIBLESelectableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B1686A17248A8F0085A3B8 /* TIBLESelectableCell.xib */; };
+		A4B168E417248A900085A3B8 /* TIBLESelectableSensorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1686C17248A8F0085A3B8 /* TIBLESelectableSensorCell.m */; };
+		A4B168E517248A900085A3B8 /* TIBLESelectableSensorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B1686D17248A8F0085A3B8 /* TIBLESelectableSensorCell.xib */; };
+		A4B168E617248A900085A3B8 /* TIBLESwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1686F17248A8F0085A3B8 /* TIBLESwitchCell.m */; };
+		A4B168E717248A900085A3B8 /* TIBLESwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B1687017248A8F0085A3B8 /* TIBLESwitchCell.xib */; };
+		A4B168E817248A900085A3B8 /* TIBLETextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1687217248A8F0085A3B8 /* TIBLETextFieldCell.m */; };
+		A4B168E917248A900085A3B8 /* TIBLETextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B1687317248A8F0085A3B8 /* TIBLETextFieldCell.xib */; };
+		A4B168EA17248A900085A3B8 /* KSCustomPopoverBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1687617248A8F0085A3B8 /* KSCustomPopoverBackgroundView.m */; };
+		A4B168EB17248A900085A3B8 /* TIBLECheckmark.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1687817248A8F0085A3B8 /* TIBLECheckmark.m */; };
+		A4B168EC17248A900085A3B8 /* TIBLEHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1687A17248A8F0085A3B8 /* TIBLEHeaderView.m */; };
+		A4B168ED17248A900085A3B8 /* TIBLEProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1687C17248A8F0085A3B8 /* TIBLEProgressView.m */; };
+		A4B168EE17248A900085A3B8 /* TIBLEStretchableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1687E17248A8F0085A3B8 /* TIBLEStretchableImageView.m */; };
+		A4B168EF17248A900085A3B8 /* TIBLEConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1688217248A8F0085A3B8 /* TIBLEConnectViewController.m */; };
+		A4B168F017248A900085A3B8 /* TIBLEConnectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B1688317248A8F0085A3B8 /* TIBLEConnectViewController.xib */; };
+		A4B168F117248A900085A3B8 /* TIBLEDeviceListPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1688517248A8F0085A3B8 /* TIBLEDeviceListPickerManager.m */; };
+		A4B168F217248A900085A3B8 /* TIBLEDeviceListPickerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1688717248A8F0085A3B8 /* TIBLEDeviceListPickerTableViewController.m */; };
+		A4B168F417248A900085A3B8 /* TIBLEDashboardViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1688B17248A8F0085A3B8 /* TIBLEDashboardViewController_iPhone.m */; };
+		A4B168F517248A900085A3B8 /* TIBLEDashboardViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B1688C17248A8F0085A3B8 /* TIBLEDashboardViewController_iPhone.xib */; };
+		A4B168F617248A900085A3B8 /* TIBLEMainScreenViewController_iPad-landscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B1688D17248A8F0085A3B8 /* TIBLEMainScreenViewController_iPad-landscape.xib */; };
+		A4B168F717248A900085A3B8 /* TIBLEMainScreenViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1688F17248A8F0085A3B8 /* TIBLEMainScreenViewController_iPad.m */; };
+		A4B168F817248A900085A3B8 /* TIBLEMainScreenViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B1689017248A8F0085A3B8 /* TIBLEMainScreenViewController_iPad.xib */; };
+		A4B168F917248A900085A3B8 /* TIBLEProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1689217248A8F0085A3B8 /* TIBLEProgressViewController.m */; };
+		A4B168FA17248A900085A3B8 /* TIBLEProgressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B1689317248A8F0085A3B8 /* TIBLEProgressViewController.xib */; };
+		A4B168FB17248A900085A3B8 /* TIBLESensorInfoViewController-landscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B1689417248A8F0085A3B8 /* TIBLESensorInfoViewController-landscape.xib */; };
+		A4B168FC17248A900085A3B8 /* TIBLESensorInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1689617248A8F0085A3B8 /* TIBLESensorInfoViewController.m */; };
+		A4B168FD17248A900085A3B8 /* TIBLESensorInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B1689717248A8F0085A3B8 /* TIBLESensorInfoViewController.xib */; };
+		A4B168FE17248A900085A3B8 /* TIBLESensorInfoViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B1689817248A8F0085A3B8 /* TIBLESensorInfoViewController~iphone.xib */; };
+		A4B168FF17248A900085A3B8 /* TIBLEGraphViewController-landscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B1689A17248A8F0085A3B8 /* TIBLEGraphViewController-landscape.xib */; };
+		A4B1690017248A900085A3B8 /* TIBLEGraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B1689C17248A8F0085A3B8 /* TIBLEGraphViewController.m */; };
+		A4B1690117248A900085A3B8 /* TIBLEGraphViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B1689D17248A8F0085A3B8 /* TIBLEGraphViewController.xib */; };
+		A4B1690217248A900085A3B8 /* TIBLEGraphViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B1689E17248A8F0085A3B8 /* TIBLEGraphViewController~iphone.xib */; };
+		A4B1690317248A900085A3B8 /* TIBLEAboutAlertWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B168A017248A8F0085A3B8 /* TIBLEAboutAlertWindow.xib */; };
+		A4B1690417248A900085A3B8 /* TIBLEAliasView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B168A117248A8F0085A3B8 /* TIBLEAliasView.xib */; };
+		A4B1690517248A900085A3B8 /* TIBLEAliasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B168A317248A900085A3B8 /* TIBLEAliasViewController.m */; };
+		A4B1690617248A900085A3B8 /* TIBLECopyrightAlertWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B168A417248A900085A3B8 /* TIBLECopyrightAlertWindow.xib */; };
+		A4B1690717248A900085A3B8 /* TIBLEInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B168A617248A900085A3B8 /* TIBLEInfoViewController.m */; };
+		A4B1690817248A900085A3B8 /* TIBLENoSensorAvailableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B168A917248A900085A3B8 /* TIBLENoSensorAvailableViewController.m */; };
+		A4B1690917248A900085A3B8 /* TIBLENoSensorAvailableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B168AA17248A900085A3B8 /* TIBLENoSensorAvailableViewController.xib */; };
+		A4B1690A17248A900085A3B8 /* TIBLEFormulaSettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B168AC17248A900085A3B8 /* TIBLEFormulaSettingsView.xib */; };
+		A4B1690B17248A900085A3B8 /* TIBLEFormulaSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B168AE17248A900085A3B8 /* TIBLEFormulaSettingsViewController.m */; };
+		A4B1690C17248A900085A3B8 /* TIBLEGraphDisplaySettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B168AF17248A900085A3B8 /* TIBLEGraphDisplaySettingsView.xib */; };
+		A4B1690D17248A900085A3B8 /* TIBLEGraphDisplaySettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B168B117248A900085A3B8 /* TIBLEGraphDisplaySettingsViewController.m */; };
+		A4B1690E17248A900085A3B8 /* TIBLESensorSettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B168B217248A900085A3B8 /* TIBLESensorSettingsView.xib */; };
+		A4B1690F17248A900085A3B8 /* TIBLESensorSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B168B417248A900085A3B8 /* TIBLESensorSettingsViewController.m */; };
+		A4B1691017248A900085A3B8 /* TIBLESettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B168B617248A900085A3B8 /* TIBLESettingsViewController.m */; };
+		A4B1691117248A900085A3B8 /* TIBLESettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B168B717248A900085A3B8 /* TIBLESettingsViewController.xib */; };
+		A4B668E21715C7ED007483BC /* gradient_bg_stretch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4B668E11715C7EC007483BC /* gradient_bg_stretch@2x.png */; };
+		A4B97FBB1754017E00E9BDC7 /* TIBLEInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B97FBA1754017E00E9BDC7 /* TIBLEInputValidator.m */; };
+		A4B97FC017542B3F00E9BDC7 /* TIBLELogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B97FBF17542B3F00E9BDC7 /* TIBLELogger.m */; };
+		A4B97FC6175585B500E9BDC7 /* UIImage+Resizable.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B97FC5175585B500E9BDC7 /* UIImage+Resizable.m */; };
+		A4B97FC9175642EA00E9BDC7 /* TIBLEProgressViewController-landscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B97FC7175642E500E9BDC7 /* TIBLEProgressViewController-landscape.xib */; };
+		A4B97FCA175642EA00E9BDC7 /* TIBLEProgressViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B97FC8175642E700E9BDC7 /* TIBLEProgressViewController~iphone.xib */; };
+		A4C8EA5A16FA257A00F272B2 /* Main_Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C8EA5916FA257900F272B2 /* Main_Storyboard_iPhone.storyboard */; };
+		A4C8EA5C16FA4AE800F272B2 /* Main_Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C8EA5B16FA4AE800F272B2 /* Main_Storyboard_iPad.storyboard */; };
+		A4C8EA6216FA56F200F272B2 /* tab_bar_graph_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A4C8EA5D16FA56F200F272B2 /* tab_bar_graph_icon.png */; };
+		A4C8EA6316FA56F200F272B2 /* tab_bar_percentage_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A4C8EA5E16FA56F200F272B2 /* tab_bar_percentage_icon.png */; };
+		A4C8EA6416FA56F200F272B2 /* tab_bar_sensor_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A4C8EA5F16FA56F200F272B2 /* tab_bar_sensor_icon.png */; };
+		A4C8EA6516FA56F200F272B2 /* tab_bar_settings_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A4C8EA6016FA56F200F272B2 /* tab_bar_settings_icon.png */; };
+		A4C8EA6616FA56F200F272B2 /* tab_bar_wifi_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A4C8EA6116FA56F200F272B2 /* tab_bar_wifi_icon.png */; };
+		A4C8EA6916FA580700F272B2 /* TIBLERootViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C8EA6816FA580700F272B2 /* TIBLERootViewController_iPhone.m */; };
+		A4C8EA6C16FA581600F272B2 /* TIBLERootViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C8EA6B16FA581500F272B2 /* TIBLERootViewController_iPad.m */; };
+		A4C8EA8116FA834100F272B2 /* popover-black-bottom-arrow-image.png in Resources */ = {isa = PBXBuildFile; fileRef = A4C8EA7716FA834000F272B2 /* popover-black-bottom-arrow-image.png */; };
+		A4C8EA8216FA834100F272B2 /* popover-black-left-arrow-image.png in Resources */ = {isa = PBXBuildFile; fileRef = A4C8EA7816FA834000F272B2 /* popover-black-left-arrow-image.png */; };
+		A4C8EA8316FA834100F272B2 /* popover-black-right-arrow-image.png in Resources */ = {isa = PBXBuildFile; fileRef = A4C8EA7916FA834000F272B2 /* popover-black-right-arrow-image.png */; };
+		A4C8EA8416FA834100F272B2 /* popover-black-top-arrow-image.png in Resources */ = {isa = PBXBuildFile; fileRef = A4C8EA7A16FA834000F272B2 /* popover-black-top-arrow-image.png */; };
+		A4C8EA8516FA834100F272B2 /* popover-black-bcg-image.png in Resources */ = {isa = PBXBuildFile; fileRef = A4C8EA7B16FA834000F272B2 /* popover-black-bcg-image.png */; };
+		A4C8EA8616FA834100F272B2 /* popover-black-top-arrow-image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4C8EA7C16FA834000F272B2 /* popover-black-top-arrow-image@2x.png */; };
+		A4C8EA8716FA834100F272B2 /* popover-black-right-arrow-image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4C8EA7D16FA834000F272B2 /* popover-black-right-arrow-image@2x.png */; };
+		A4C8EA8816FA834100F272B2 /* popover-black-left-arrow-image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4C8EA7E16FA834000F272B2 /* popover-black-left-arrow-image@2x.png */; };
+		A4C8EA8916FA834100F272B2 /* popover-black-bottom-arrow-image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4C8EA7F16FA834000F272B2 /* popover-black-bottom-arrow-image@2x.png */; };
+		A4C8EA8A16FA834100F272B2 /* popover-black-bcg-image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4C8EA8016FA834100F272B2 /* popover-black-bcg-image@2x.png */; };
+		A4D6351A17344DE6003CB6A9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D6351917344DE5003CB6A9 /* MessageUI.framework */; };
+		A4D6351C173705FA003CB6A9 /* TIBLETextFieldCellLarge.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0441D5417340D3500487671 /* TIBLETextFieldCellLarge.xib */; };
+		A4D6CA8F1738286000158DA4 /* TIBLEAlertWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D6CA8E1738286000158DA4 /* TIBLEAlertWindow.m */; };
+		A4D6CA96173868FB00158DA4 /* TIBLEPlotConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D6CA95173868FA00158DA4 /* TIBLEPlotConstants.m */; };
+		A4D6CA9E173AA61000158DA4 /* TIBLEActivityPrintProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D6CA9D173AA61000158DA4 /* TIBLEActivityPrintProvider.m */; };
+		A4D6CAA1173AD0F600158DA4 /* TIBLEActivityClipboardProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D6CAA0173AD0F600158DA4 /* TIBLEActivityClipboardProvider.m */; };
+		A4D6CAA4173AD10B00158DA4 /* TIBLEActivityMailProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D6CAA3173AD10B00158DA4 /* TIBLEActivityMailProvider.m */; };
+		A4D6CAA7173ADAAD00158DA4 /* TIBLEScatterPlotViewController+Export.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D6CAA6173ADAAD00158DA4 /* TIBLEScatterPlotViewController+Export.m */; };
+		A4D6CAAA173ADB7100158DA4 /* TIBLEScatterPlotViewController+Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D6CAA9173ADB7100158DA4 /* TIBLEScatterPlotViewController+Annotation.m */; };
+		A4D6CAAD173ADBF800158DA4 /* TIBLEScatterPlotViewController+DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D6CAAC173ADBF700158DA4 /* TIBLEScatterPlotViewController+DataSource.m */; };
+		A4D6CAB0173ADC0700158DA4 /* TIBLEScatterPlotViewController+PlotSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D6CAAF173ADC0600158DA4 /* TIBLEScatterPlotViewController+PlotSpace.m */; };
+		A4D6CAB3173ADD6800158DA4 /* TIBLEScatterPlotViewController+RealTimeRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D6CAB2173ADD6700158DA4 /* TIBLEScatterPlotViewController+RealTimeRefresh.m */; };
+		A4D6CAB6173AE25100158DA4 /* TIBLEScatterPlotViewController+Range.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D6CAB5173AE24F00158DA4 /* TIBLEScatterPlotViewController+Range.m */; };
+		A4F83F0D1732ADB300952F2E /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A47D11172786A100841729 /* libCorePlot-CocoaTouch.a */; };
+		E00BAAFD172C73A200B56119 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E00BAAFC172C73A200B56119 /* QuickLook.framework */; };
+		E00BAAFF172C741A00B56119 /* OxygenSensor_Schematic.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E00BAAFE172C741A00B56119 /* OxygenSensor_Schematic.pdf */; };
+		E00BAB04172E9BCF00B56119 /* TIBLELoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E00BAB02172E9BCF00B56119 /* TIBLELoadingViewController.m */; };
+		E00BAB05172E9BCF00B56119 /* TIBLELoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E00BAB03172E9BCF00B56119 /* TIBLELoadingViewController.xib */; };
+		E01D887916EA7728003CB8A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01D887816EA7728003CB8A0 /* UIKit.framework */; };
+		E01D887B16EA7728003CB8A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01D887A16EA7728003CB8A0 /* Foundation.framework */; };
+		E01D887D16EA7728003CB8A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01D887C16EA7728003CB8A0 /* CoreGraphics.framework */; };
+		E01D888316EA7728003CB8A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E01D888116EA7728003CB8A0 /* InfoPlist.strings */; };
+		E01D888516EA7728003CB8A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E01D888416EA7728003CB8A0 /* main.m */; };
+		E01D888916EA7728003CB8A0 /* TIBLEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E01D888816EA7728003CB8A0 /* TIBLEAppDelegate.m */; };
+		E01D888B16EA7728003CB8A0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E01D888A16EA7728003CB8A0 /* Default.png */; };
+		E01D888D16EA7728003CB8A0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E01D888C16EA7728003CB8A0 /* Default@2x.png */; };
+		E01D888F16EA7728003CB8A0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E01D888E16EA7728003CB8A0 /* Default-568h@2x.png */; };
+		E01D88A116EA8DA7003CB8A0 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E01D88A016EA8DA7003CB8A0 /* Settings.bundle */; };
+		E0441D5317340D1000487671 /* TIBLETextFieldCellLarge.m in Sources */ = {isa = PBXBuildFile; fileRef = E0441D5217340D1000487671 /* TIBLETextFieldCellLarge.m */; };
+		E046B812172190EA00B5AD55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E046B80E172190EA00B5AD55 /* InfoPlist.strings */; };
+		E046B813172190EA00B5AD55 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E046B810172190EA00B5AD55 /* Localizable.strings */; };
+		E067EEB217033203003BE92A /* background_graph_portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = E067EEB017033203003BE92A /* background_graph_portrait.png */; };
+		E067EEB317033203003BE92A /* background_sensor_info_portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = E067EEB117033203003BE92A /* background_sensor_info_portrait.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9832B300171474CB00AA0F05 /* warning_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning_icon@2x.png"; sourceTree = "<group>"; };
+		983595F5171CB38500B6CEED /* background_graph_landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_graph_landscape.png; sourceTree = "<group>"; };
+		983595F6171CB38500B6CEED /* background_graph_landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_graph_landscape@2x.png"; sourceTree = "<group>"; };
+		983595F7171CB38500B6CEED /* background_sensor_info_landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_sensor_info_landscape.png; sourceTree = "<group>"; };
+		983595F8171CB38500B6CEED /* background_sensor_info_landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_sensor_info_landscape@2x.png"; sourceTree = "<group>"; };
+		9836EAB01731B9E2000757B2 /* progress-bar-landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progress-bar-landscape~ipad.png"; sourceTree = "<group>"; };
+		9836EAB11731B9E2000757B2 /* progress-bar-portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progress-bar-portrait~ipad.png"; sourceTree = "<group>"; };
+		9836EAB21731B9E2000757B2 /* progress-bar@2x-landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progress-bar@2x-landscape~ipad.png"; sourceTree = "<group>"; };
+		9836EAB31731B9E2000757B2 /* progress-bar@2x-portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progress-bar@2x-portrait~ipad.png"; sourceTree = "<group>"; };
+		983CE1B0171DFA5C0054BBB6 /* refresh_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh_button.png; sourceTree = "<group>"; };
+		983CE1B1171DFA5C0054BBB6 /* refresh_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh_button@2x.png"; sourceTree = "<group>"; };
+		9854F838170B62AD00FC7647 /* background_graph_portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_graph_portrait@2x.png"; sourceTree = "<group>"; };
+		9854F839170B62AD00FC7647 /* background_sensor_info_portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_sensor_info_portrait@2x.png"; sourceTree = "<group>"; };
+		9854F83A170B62AD00FC7647 /* checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark@2x.png"; sourceTree = "<group>"; };
+		9854F83B170B62AD00FC7647 /* formula_sticky@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "formula_sticky@2x.png"; sourceTree = "<group>"; };
+		9854F83C170B62AD00FC7647 /* formula@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "formula@2x.png"; sourceTree = "<group>"; };
+		9854F83D170B62AD00FC7647 /* graph_annotation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graph_annotation@2x.png"; sourceTree = "<group>"; };
+		9854F83E170B62AD00FC7647 /* graph_sticky@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graph_sticky@2x.png"; sourceTree = "<group>"; };
+		9854F83F170B62AD00FC7647 /* message_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message_background@2x.png"; sourceTree = "<group>"; };
+		9854F841170B62AD00FC7647 /* red_cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_cross@2x.png"; sourceTree = "<group>"; };
+		9854F842170B62AD00FC7647 /* sensor_sticky@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sensor_sticky@2x.png"; sourceTree = "<group>"; };
+		9854F84E170B675D00FC7647 /* background_graph_title_portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_graph_title_portrait.png; sourceTree = "<group>"; };
+		9854F84F170B675D00FC7647 /* background_graph_title_portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background_graph_title_portrait@2x.png"; sourceTree = "<group>"; };
+		9854F851170B675D00FC7647 /* button_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_background@2x.png"; sourceTree = "<group>"; };
+		986B6C47170C9FE3008981CD /* gradient_bg_stretch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient_bg_stretch.png; sourceTree = "<group>"; };
+		987E87961713601B00415BD1 /* alert_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert_button.png; sourceTree = "<group>"; };
+		987E87971713601B00415BD1 /* alert_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert_button@2x.png"; sourceTree = "<group>"; };
+		98808BED17345BD600E68ED4 /* ti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ti.png; sourceTree = "<group>"; };
+		98808BEE17345BD600E68ED4 /* ti@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ti@2x.png"; sourceTree = "<group>"; };
+		989C2F661713502C0057F728 /* alert_view_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert_view_background@2x.png"; sourceTree = "<group>"; };
+		98AE3E70170CD76700D33EC4 /* tab_bar_sensor_icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_bar_sensor_icon~ipad.png"; sourceTree = "<group>"; };
+		98B2A133170DE9EA00DD532F /* info_screen@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info_screen@2x~ipad.png"; sourceTree = "<group>"; };
+		98D5F73C170E2640002C8F42 /* progress-bar@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progress-bar@2x~ipad.png"; sourceTree = "<group>"; };
+		98D5F73D170E2640002C8F42 /* progress-bar~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progress-bar~ipad.png"; sourceTree = "<group>"; };
+		98D5F740170E280E002C8F42 /* progress-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progress-bar.png"; sourceTree = "<group>"; };
+		98D5F741170E280E002C8F42 /* progress-bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progress-bar@2x.png"; sourceTree = "<group>"; };
+		98D5F744170E2DFA002C8F42 /* info_screen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info_screen@2x.png"; sourceTree = "<group>"; };
+		98DBD15C1715DF9C004F5807 /* alert_view_content_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert_view_content_background.png; sourceTree = "<group>"; };
+		98DBD15D1715DF9C004F5807 /* alert_view_content_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert_view_content_background@2x.png"; sourceTree = "<group>"; };
+		98DBD1601715FFC9004F5807 /* pause_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause_button.png; sourceTree = "<group>"; };
+		98DBD1611715FFC9004F5807 /* pause_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause_button@2x.png"; sourceTree = "<group>"; };
+		98DBD1621715FFC9004F5807 /* play_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_button.png; sourceTree = "<group>"; };
+		98DBD1631715FFC9004F5807 /* play_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_button@2x.png"; sourceTree = "<group>"; };
+		98DBD1681716055D004F5807 /* tab_bar_sensor_icon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_bar_sensor_icon@2x~ipad.png"; sourceTree = "<group>"; };
+		98DBD16A17161620004F5807 /* krasamo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = krasamo.png; sourceTree = "<group>"; };
+		98DBD16B17161620004F5807 /* krasamo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "krasamo@2x.png"; sourceTree = "<group>"; };
+		98EF066A17173EE500E1A5F9 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		98EF066B17173EE600E1A5F9 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		98EF066E17173F8B00E1A5F9 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		98EF066F17173F8B00E1A5F9 /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x.png"; sourceTree = "<group>"; };
+		98EF0672171745CE00E1A5F9 /* tible_icon_appstore-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tible_icon_appstore-512.png"; sourceTree = "<group>"; };
+		98EF0673171745CE00E1A5F9 /* tible_icon_appstore-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tible_icon_appstore-1024.png"; sourceTree = "<group>"; };
+		98EF0674171745CE00E1A5F9 /* tible_icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tible_icon-57.png"; sourceTree = "<group>"; };
+		98EF0675171745CE00E1A5F9 /* tible_icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tible_icon-72.png"; sourceTree = "<group>"; };
+		98EF0676171745CE00E1A5F9 /* tible_icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tible_icon-114.png"; sourceTree = "<group>"; };
+		98EF0677171745CE00E1A5F9 /* tible_icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tible_icon-144.png"; sourceTree = "<group>"; };
+		98EF067E1717461C00E1A5F9 /* tible_icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tible_icon-114.png"; sourceTree = "<group>"; };
+		98EF06801717462700E1A5F9 /* tible_icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tible_icon-57.png"; sourceTree = "<group>"; };
+		98EF06821717463700E1A5F9 /* tible_icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tible_icon-144.png"; sourceTree = "<group>"; };
+		98EF06841717463B00E1A5F9 /* tible_icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tible_icon-72.png"; sourceTree = "<group>"; };
+		A4427FE717249FCC005C2299 /* TIBLEDevicesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEDevicesManager.h; sourceTree = "<group>"; };
+		A4427FE817249FCC005C2299 /* TIBLEDevicesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEDevicesManager.m; sourceTree = "<group>"; };
+		A4427FE917249FCC005C2299 /* TIBLESettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLESettingsManager.h; sourceTree = "<group>"; };
+		A4427FEA17249FCC005C2299 /* TIBLESettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLESettingsManager.m; sourceTree = "<group>"; };
+		A44280461725881A005C2299 /* Avenir.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Avenir.ttc; sourceTree = "<group>"; };
+		A442804817259490005C2299 /* TIBLEAlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEAlertManager.h; sourceTree = "<group>"; };
+		A442804917259490005C2299 /* TIBLEAlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEAlertManager.m; sourceTree = "<group>"; };
+		A446F024174C08A800E7100B /* TIBLEScatterPlotViewController+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TIBLEScatterPlotViewController+Utils.h"; sourceTree = "<group>"; };
+		A446F025174C08AA00E7100B /* TIBLEScatterPlotViewController+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TIBLEScatterPlotViewController+Utils.m"; sourceTree = "<group>"; };
+		A458035E16EFCCA20019023A /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		A46E64341729D73700C6C21E /* TIBLERawSampleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLERawSampleModel.h; sourceTree = "<group>"; };
+		A46E64351729D73700C6C21E /* TIBLERawSampleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLERawSampleModel.m; sourceTree = "<group>"; };
+		A47B487617121FBA009FAF6D /* alert_view_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert_view_background.png; sourceTree = "<group>"; };
+		A4A47CC6172786A100841729 /* CorePlot-CocoaTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CorePlot-CocoaTouch.h"; sourceTree = "<group>"; };
+		A4A47CC7172786A100841729 /* CPTAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAnnotation.h; sourceTree = "<group>"; };
+		A4A47CC8172786A100841729 /* CPTAnnotationHostLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAnnotationHostLayer.h; sourceTree = "<group>"; };
+		A4A47CC9172786A100841729 /* CPTAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxis.h; sourceTree = "<group>"; };
+		A4A47CCA172786A100841729 /* CPTAxisLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxisLabel.h; sourceTree = "<group>"; };
+		A4A47CCB172786A100841729 /* CPTAxisLabelGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxisLabelGroup.h; sourceTree = "<group>"; };
+		A4A47CCC172786A100841729 /* CPTAxisSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxisSet.h; sourceTree = "<group>"; };
+		A4A47CCD172786A100841729 /* CPTAxisTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTAxisTitle.h; sourceTree = "<group>"; };
+		A4A47CCE172786A100841729 /* CPTBarPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTBarPlot.h; sourceTree = "<group>"; };
+		A4A47CCF172786A100841729 /* CPTBorderedLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTBorderedLayer.h; sourceTree = "<group>"; };
+		A4A47CD0172786A100841729 /* CPTCalendarFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTCalendarFormatter.h; sourceTree = "<group>"; };
+		A4A47CD1172786A100841729 /* CPTColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTColor.h; sourceTree = "<group>"; };
+		A4A47CD2172786A100841729 /* CPTColorSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTColorSpace.h; sourceTree = "<group>"; };
+		A4A47CD3172786A100841729 /* CPTConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTConstraints.h; sourceTree = "<group>"; };
+		A4A47CD4172786A100841729 /* CPTDataSourceTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTDataSourceTestCase.h; sourceTree = "<group>"; };
+		A4A47CD5172786A100841729 /* CPTDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTDefinitions.h; sourceTree = "<group>"; };
+		A4A47CD6172786A100841729 /* CPTDerivedXYGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTDerivedXYGraph.h; sourceTree = "<group>"; };
+		A4A47CD7172786A100841729 /* CPTExceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTExceptions.h; sourceTree = "<group>"; };
+		A4A47CD8172786A100841729 /* CPTFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTFill.h; sourceTree = "<group>"; };
+		A4A47CD9172786A100841729 /* CPTGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGradient.h; sourceTree = "<group>"; };
+		A4A47CDA172786A100841729 /* CPTGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGraph.h; sourceTree = "<group>"; };
+		A4A47CDB172786A100841729 /* CPTGraphHostingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGraphHostingView.h; sourceTree = "<group>"; };
+		A4A47CDC172786A100841729 /* CPTGridLineGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGridLineGroup.h; sourceTree = "<group>"; };
+		A4A47CDD172786A100841729 /* CPTGridLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTGridLines.h; sourceTree = "<group>"; };
+		A4A47CDE172786A100841729 /* CPTImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTImage.h; sourceTree = "<group>"; };
+		A4A47CDF172786A100841729 /* CPTLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLayer.h; sourceTree = "<group>"; };
+		A4A47CE0172786A100841729 /* CPTLayerAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLayerAnnotation.h; sourceTree = "<group>"; };
+		A4A47CE1172786A100841729 /* CPTLegend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLegend.h; sourceTree = "<group>"; };
+		A4A47CE2172786A100841729 /* CPTLegendEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLegendEntry.h; sourceTree = "<group>"; };
+		A4A47CE3172786A100841729 /* CPTLimitBand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLimitBand.h; sourceTree = "<group>"; };
+		A4A47CE4172786A100841729 /* CPTLineCap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLineCap.h; sourceTree = "<group>"; };
+		A4A47CE5172786A100841729 /* CPTLineStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTLineStyle.h; sourceTree = "<group>"; };
+		A4A47CE6172786A100841729 /* CPTMutableLineStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutableLineStyle.h; sourceTree = "<group>"; };
+		A4A47CE7172786A100841729 /* CPTMutableNumericData+TypeConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CPTMutableNumericData+TypeConversion.h"; sourceTree = "<group>"; };
+		A4A47CE8172786A100841729 /* CPTMutableNumericData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutableNumericData.h; sourceTree = "<group>"; };
+		A4A47CE9172786A100841729 /* CPTMutablePlotRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutablePlotRange.h; sourceTree = "<group>"; };
+		A4A47CEA172786A100841729 /* CPTMutableShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutableShadow.h; sourceTree = "<group>"; };
+		A4A47CEB172786A100841729 /* CPTMutableTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTMutableTextStyle.h; sourceTree = "<group>"; };
+		A4A47CEC172786A100841729 /* CPTNumericData+TypeConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CPTNumericData+TypeConversion.h"; sourceTree = "<group>"; };
+		A4A47CED172786A100841729 /* CPTNumericData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTNumericData.h; sourceTree = "<group>"; };
+		A4A47CEE172786A100841729 /* CPTNumericDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTNumericDataType.h; sourceTree = "<group>"; };
+		A4A47CEF172786A100841729 /* CPTPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPathExtensions.h; sourceTree = "<group>"; };
+		A4A47CF0172786A100841729 /* CPTPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPieChart.h; sourceTree = "<group>"; };
+		A4A47CF1172786A100841729 /* CPTPlatformSpecificCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlatformSpecificCategories.h; sourceTree = "<group>"; };
+		A4A47CF2172786A100841729 /* CPTPlatformSpecificDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlatformSpecificDefines.h; sourceTree = "<group>"; };
+		A4A47CF3172786A100841729 /* CPTPlatformSpecificFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlatformSpecificFunctions.h; sourceTree = "<group>"; };
+		A4A47CF4172786A100841729 /* CPTPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlot.h; sourceTree = "<group>"; };
+		A4A47CF5172786A100841729 /* CPTPlotArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotArea.h; sourceTree = "<group>"; };
+		A4A47CF6172786A100841729 /* CPTPlotAreaFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotAreaFrame.h; sourceTree = "<group>"; };
+		A4A47CF7172786A100841729 /* CPTPlotGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotGroup.h; sourceTree = "<group>"; };
+		A4A47CF8172786A100841729 /* CPTPlotRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotRange.h; sourceTree = "<group>"; };
+		A4A47CF9172786A100841729 /* CPTPlotSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotSpace.h; sourceTree = "<group>"; };
+		A4A47CFA172786A100841729 /* CPTPlotSpaceAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotSpaceAnnotation.h; sourceTree = "<group>"; };
+		A4A47CFB172786A100841729 /* CPTPlotSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTPlotSymbol.h; sourceTree = "<group>"; };
+		A4A47CFC172786A100841729 /* CPTRangePlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTRangePlot.h; sourceTree = "<group>"; };
+		A4A47CFD172786A100841729 /* CPTResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTResponder.h; sourceTree = "<group>"; };
+		A4A47CFE172786A100841729 /* CPTScatterPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTScatterPlot.h; sourceTree = "<group>"; };
+		A4A47CFF172786A100841729 /* CPTShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTShadow.h; sourceTree = "<group>"; };
+		A4A47D00172786A100841729 /* CPTTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTestCase.h; sourceTree = "<group>"; };
+		A4A47D01172786A100841729 /* CPTTextLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTextLayer.h; sourceTree = "<group>"; };
+		A4A47D02172786A100841729 /* CPTTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTextStyle.h; sourceTree = "<group>"; };
+		A4A47D03172786A100841729 /* CPTTextStylePlatformSpecific.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTextStylePlatformSpecific.h; sourceTree = "<group>"; };
+		A4A47D04172786A100841729 /* CPTTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTheme.h; sourceTree = "<group>"; };
+		A4A47D05172786A100841729 /* CPTTimeFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTimeFormatter.h; sourceTree = "<group>"; };
+		A4A47D06172786A100841729 /* CPTTradingRangePlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTTradingRangePlot.h; sourceTree = "<group>"; };
+		A4A47D07172786A100841729 /* CPTUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTUtilities.h; sourceTree = "<group>"; };
+		A4A47D08172786A100841729 /* CPTXYAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTXYAxis.h; sourceTree = "<group>"; };
+		A4A47D09172786A100841729 /* CPTXYAxisSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTXYAxisSet.h; sourceTree = "<group>"; };
+		A4A47D0A172786A100841729 /* CPTXYGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTXYGraph.h; sourceTree = "<group>"; };
+		A4A47D0B172786A100841729 /* CPTXYPlotSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTXYPlotSpace.h; sourceTree = "<group>"; };
+		A4A47D0C172786A100841729 /* mainpage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainpage.h; sourceTree = "<group>"; };
+		A4A47D0D172786A100841729 /* NSCoderExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCoderExtensions.h; sourceTree = "<group>"; };
+		A4A47D0E172786A100841729 /* NSDecimalNumberExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDecimalNumberExtensions.h; sourceTree = "<group>"; };
+		A4A47D0F172786A100841729 /* NSNumberExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNumberExtensions.h; sourceTree = "<group>"; };
+		A4A47D11172786A100841729 /* libCorePlot-CocoaTouch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libCorePlot-CocoaTouch.a"; sourceTree = "<group>"; };
+		A4A47D15172786A100841729 /* TIBLEScatterPlotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEScatterPlotViewController.h; sourceTree = "<group>"; };
+		A4A47D16172786A100841729 /* TIBLEScatterPlotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEScatterPlotViewController.m; sourceTree = "<group>"; };
+		A4A70B491730623100F497E6 /* TIBLEClearBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEClearBackgroundView.h; sourceTree = "<group>"; };
+		A4A70B4A1730623100F497E6 /* TIBLEClearBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEClearBackgroundView.m; sourceTree = "<group>"; };
+		A4A70B4D173076BC00F497E6 /* TIBLEDevicesListAlertWindow~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "TIBLEDevicesListAlertWindow~iphone.xib"; sourceTree = "<group>"; };
+		A4A70B4E173076BC00F497E6 /* TIBLEDevicesListAlertWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIBLEDevicesListAlertWindow.xib; sourceTree = "<group>"; };
+		A4ABCB4B16F772930075B22C /* TIBLECommonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLECommonMacros.h; sourceTree = "<group>"; };
+		A4ABCBBD16F772D20075B22C /* button_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_background.png; sourceTree = "<group>"; };
+		A4ABCBC016F772D20075B22C /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		A4ABCBC216F772D20075B22C /* formula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = formula.png; sourceTree = "<group>"; };
+		A4ABCBC416F772D20075B22C /* formula_sticky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = formula_sticky.png; sourceTree = "<group>"; };
+		A4ABCBC516F772D20075B22C /* graph_annotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph_annotation.png; sourceTree = "<group>"; };
+		A4ABCBC716F772D20075B22C /* graph_sticky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph_sticky.png; sourceTree = "<group>"; };
+		A4ABCBC816F772D20075B22C /* info_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_screen.png; sourceTree = "<group>"; };
+		A4ABCBC916F772D20075B22C /* info_screen~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info_screen~ipad.png"; sourceTree = "<group>"; };
+		A4ABCBCA16F772D20075B22C /* message_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message_background.png; sourceTree = "<group>"; };
+		A4ABCBCD16F772D20075B22C /* sensor_sticky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sensor_sticky.png; sourceTree = "<group>"; };
+		A4ABCBD216F772D20075B22C /* tab_bar_graph_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_bar_graph_icon@2x.png"; sourceTree = "<group>"; };
+		A4ABCBD316F772D20075B22C /* tab_bar_percentage_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_bar_percentage_icon@2x.png"; sourceTree = "<group>"; };
+		A4ABCBD416F772D20075B22C /* tab_bar_sensor_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_bar_sensor_icon@2x.png"; sourceTree = "<group>"; };
+		A4ABCBD516F772D20075B22C /* tab_bar_settings_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_bar_settings_icon@2x.png"; sourceTree = "<group>"; };
+		A4ABCBD616F772D20075B22C /* tab_bar_wifi_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_bar_wifi_icon@2x.png"; sourceTree = "<group>"; };
+		A4ABCBD716F772D20075B22C /* warning_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warning_icon.png; sourceTree = "<group>"; };
+		A4ABCBF716F775C60075B22C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A4ABCC0E16F803CA0075B22C /* red_cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_cross.png; sourceTree = "<group>"; };
+		A4B167C517248A8F0085A3B8 /* CBUUID+StringExtraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBUUID+StringExtraction.h"; sourceTree = "<group>"; };
+		A4B167C617248A8F0085A3B8 /* CBUUID+StringExtraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBUUID+StringExtraction.m"; sourceTree = "<group>"; };
+		A4B167C717248A8F0085A3B8 /* TIBLECharacteristics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLECharacteristics.h; sourceTree = "<group>"; };
+		A4B167C817248A8F0085A3B8 /* TIBLECharacteristics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLECharacteristics.m; sourceTree = "<group>"; };
+		A4B167C917248A8F0085A3B8 /* TIBLEDiscovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEDiscovery.h; sourceTree = "<group>"; };
+		A4B167CA17248A8F0085A3B8 /* TIBLEDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEDiscovery.m; sourceTree = "<group>"; };
+		A4B167CB17248A8F0085A3B8 /* TIBLEPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEPeripheral.h; sourceTree = "<group>"; };
+		A4B167CC17248A8F0085A3B8 /* TIBLEPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEPeripheral.m; sourceTree = "<group>"; };
+		A4B167CD17248A8F0085A3B8 /* TIBLEService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEService.h; sourceTree = "<group>"; };
+		A4B167CE17248A8F0085A3B8 /* TIBLEService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEService.m; sourceTree = "<group>"; };
+		A4B167CF17248A8F0085A3B8 /* TIBLEUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEUtilities.h; sourceTree = "<group>"; };
+		A4B167D017248A8F0085A3B8 /* TIBLEUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEUtilities.m; sourceTree = "<group>"; };
+		A4B167D217248A8F0085A3B8 /* colorPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = colorPicker.bundle; sourceTree = "<group>"; };
+		A4B167D317248A8F0085A3B8 /* NEOColorPickerBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOColorPickerBaseViewController.h; sourceTree = "<group>"; };
+		A4B167D417248A8F0085A3B8 /* NEOColorPickerBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOColorPickerBaseViewController.m; sourceTree = "<group>"; };
+		A4B167D517248A8F0085A3B8 /* NEOColorPickerFavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOColorPickerFavoritesViewController.h; sourceTree = "<group>"; };
+		A4B167D617248A8F0085A3B8 /* NEOColorPickerFavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOColorPickerFavoritesViewController.m; sourceTree = "<group>"; };
+		A4B167D717248A8F0085A3B8 /* NEOColorPickerFavoritesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEOColorPickerFavoritesViewController.xib; sourceTree = "<group>"; };
+		A4B167D817248A8F0085A3B8 /* NEOColorPickerGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOColorPickerGradientView.h; sourceTree = "<group>"; };
+		A4B167D917248A8F0085A3B8 /* NEOColorPickerGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOColorPickerGradientView.m; sourceTree = "<group>"; };
+		A4B167DA17248A8F0085A3B8 /* NEOColorPickerHSLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOColorPickerHSLViewController.h; sourceTree = "<group>"; };
+		A4B167DB17248A8F0085A3B8 /* NEOColorPickerHSLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOColorPickerHSLViewController.m; sourceTree = "<group>"; };
+		A4B167DC17248A8F0085A3B8 /* NEOColorPickerHSLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEOColorPickerHSLViewController.xib; sourceTree = "<group>"; };
+		A4B167DD17248A8F0085A3B8 /* NEOColorPickerHueGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOColorPickerHueGridViewController.h; sourceTree = "<group>"; };
+		A4B167DE17248A8F0085A3B8 /* NEOColorPickerHueGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOColorPickerHueGridViewController.m; sourceTree = "<group>"; };
+		A4B167DF17248A8F0085A3B8 /* NEOColorPickerHueGridViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEOColorPickerHueGridViewController.xib; sourceTree = "<group>"; };
+		A4B167E017248A8F0085A3B8 /* NEOColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOColorPickerViewController.h; sourceTree = "<group>"; };
+		A4B167E117248A8F0085A3B8 /* NEOColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOColorPickerViewController.m; sourceTree = "<group>"; };
+		A4B167E217248A8F0085A3B8 /* NEOColorPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEOColorPickerViewController.xib; sourceTree = "<group>"; };
+		A4B167E317248A8F0085A3B8 /* UIColor+NEOColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NEOColor.h"; sourceTree = "<group>"; };
+		A4B167E417248A8F0085A3B8 /* UIColor+NEOColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NEOColor.m"; sourceTree = "<group>"; };
+		A4B167E617248A8F0085A3B8 /* TIBLECharacteristicsSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLECharacteristicsSingleton.h; sourceTree = "<group>"; };
+		A4B167E717248A8F0085A3B8 /* TIBLECharacteristicsSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLECharacteristicsSingleton.m; sourceTree = "<group>"; };
+		A4B167E817248A8F0085A3B8 /* TIBLESensorConfigurationConstants.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TIBLESensorConfigurationConstants.plist; sourceTree = "<group>"; };
+		A4B167E917248A8F0085A3B8 /* TIBLESensorConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLESensorConstants.h; sourceTree = "<group>"; };
+		A4B167EA17248A8F0085A3B8 /* TIBLESensorProfileConstants.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TIBLESensorProfileConstants.plist; sourceTree = "<group>"; };
+		A4B167EB17248A8F0085A3B8 /* TIBLEUIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEUIConstants.h; sourceTree = "<group>"; };
+		A4B167EC17248A8F0085A3B8 /* TIBLEUserDefaultConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEUserDefaultConstants.h; sourceTree = "<group>"; };
+		A4B1684B17248A8F0085A3B8 /* TIBLERawDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLERawDataModel.h; sourceTree = "<group>"; };
+		A4B1684C17248A8F0085A3B8 /* TIBLERawDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLERawDataModel.m; sourceTree = "<group>"; };
+		A4B1684D17248A8F0085A3B8 /* TIBLESampleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLESampleModel.h; sourceTree = "<group>"; };
+		A4B1684E17248A8F0085A3B8 /* TIBLESampleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLESampleModel.m; sourceTree = "<group>"; };
+		A4B1684F17248A8F0085A3B8 /* TIBLESampleQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLESampleQueue.h; sourceTree = "<group>"; };
+		A4B1685017248A8F0085A3B8 /* TIBLESampleQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLESampleQueue.m; sourceTree = "<group>"; };
+		A4B1685117248A8F0085A3B8 /* TIBLESavedSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLESavedSensor.h; sourceTree = "<group>"; };
+		A4B1685217248A8F0085A3B8 /* TIBLESavedSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLESavedSensor.m; sourceTree = "<group>"; };
+		A4B1685317248A8F0085A3B8 /* TIBLESensorMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLESensorMath.h; sourceTree = "<group>"; };
+		A4B1685417248A8F0085A3B8 /* TIBLESensorMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLESensorMath.m; sourceTree = "<group>"; };
+		A4B1685517248A8F0085A3B8 /* TIBLESensorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLESensorModel.h; sourceTree = "<group>"; };
+		A4B1685617248A8F0085A3B8 /* TIBLESensorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLESensorModel.m; sourceTree = "<group>"; };
+		A4B1685717248A8F0085A3B8 /* TIBLESensorProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLESensorProfile.h; sourceTree = "<group>"; };
+		A4B1685817248A8F0085A3B8 /* TIBLESensorProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLESensorProfile.m; sourceTree = "<group>"; };
+		A4B1686017248A8F0085A3B8 /* UIColor+LightAndDark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LightAndDark.h"; sourceTree = "<group>"; };
+		A4B1686117248A8F0085A3B8 /* UIColor+LightAndDark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LightAndDark.m"; sourceTree = "<group>"; };
+		A4B1686217248A8F0085A3B8 /* UIImageView+GeometryConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GeometryConversion.h"; sourceTree = "<group>"; };
+		A4B1686317248A8F0085A3B8 /* UIImageView+GeometryConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GeometryConversion.m"; sourceTree = "<group>"; };
+		A4B1686517248A8F0085A3B8 /* TIBLEColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEColorCell.h; sourceTree = "<group>"; };
+		A4B1686617248A8F0085A3B8 /* TIBLEColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEColorCell.m; sourceTree = "<group>"; };
+		A4B1686717248A8F0085A3B8 /* TIBLEColorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIBLEColorCell.xib; sourceTree = "<group>"; };
+		A4B1686817248A8F0085A3B8 /* TIBLESelectableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLESelectableCell.h; sourceTree = "<group>"; };
+		A4B1686917248A8F0085A3B8 /* TIBLESelectableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLESelectableCell.m; sourceTree = "<group>"; };
+		A4B1686A17248A8F0085A3B8 /* TIBLESelectableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIBLESelectableCell.xib; sourceTree = "<group>"; };
+		A4B1686B17248A8F0085A3B8 /* TIBLESelectableSensorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLESelectableSensorCell.h; sourceTree = "<group>"; };
+		A4B1686C17248A8F0085A3B8 /* TIBLESelectableSensorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLESelectableSensorCell.m; sourceTree = "<group>"; };
+		A4B1686D17248A8F0085A3B8 /* TIBLESelectableSensorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIBLESelectableSensorCell.xib; sourceTree = "<group>"; };
+		A4B1686E17248A8F0085A3B8 /* TIBLESwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLESwitchCell.h; sourceTree = "<group>"; };
+		A4B1686F17248A8F0085A3B8 /* TIBLESwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLESwitchCell.m; sourceTree = "<group>"; };
+		A4B1687017248A8F0085A3B8 /* TIBLESwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIBLESwitchCell.xib; sourceTree = "<group>"; };
+		A4B1687117248A8F0085A3B8 /* TIBLETextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLETextFieldCell.h; sourceTree = "<group>"; };
+		A4B1687217248A8F0085A3B8 /* TIBLETextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLETextFieldCell.m; sourceTree = "<group>"; };
+		A4B1687317248A8F0085A3B8 /* TIBLETextFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIBLETextFieldCell.xib; sourceTree = "<group>"; };
+		A4B1687517248A8F0085A3B8 /* KSCustomPopoverBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCustomPopoverBackgroundView.h; sourceTree = "<group>"; };
+		A4B1687617248A8F0085A3B8 /* KSCustomPopoverBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCustomPopoverBackgroundView.m; sourceTree = "<group>"; };
+		A4B1687717248A8F0085A3B8 /* TIBLECheckmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLECheckmark.h; sourceTree = "<group>"; };
+		A4B1687817248A8F0085A3B8 /* TIBLECheckmark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLECheckmark.m; sourceTree = "<group>"; };
+		A4B1687917248A8F0085A3B8 /* TIBLEHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEHeaderView.h; sourceTree = "<group>"; };
+		A4B1687A17248A8F0085A3B8 /* TIBLEHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEHeaderView.m; sourceTree = "<group>"; };
+		A4B1687B17248A8F0085A3B8 /* TIBLEProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEProgressView.h; sourceTree = "<group>"; };
+		A4B1687C17248A8F0085A3B8 /* TIBLEProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEProgressView.m; sourceTree = "<group>"; };
+		A4B1687D17248A8F0085A3B8 /* TIBLEStretchableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEStretchableImageView.h; sourceTree = "<group>"; };
+		A4B1687E17248A8F0085A3B8 /* TIBLEStretchableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEStretchableImageView.m; sourceTree = "<group>"; };
+		A4B1688117248A8F0085A3B8 /* TIBLEConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEConnectViewController.h; sourceTree = "<group>"; };
+		A4B1688217248A8F0085A3B8 /* TIBLEConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEConnectViewController.m; sourceTree = "<group>"; };
+		A4B1688317248A8F0085A3B8 /* TIBLEConnectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIBLEConnectViewController.xib; sourceTree = "<group>"; };
+		A4B1688417248A8F0085A3B8 /* TIBLEDeviceListPickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEDeviceListPickerManager.h; sourceTree = "<group>"; };
+		A4B1688517248A8F0085A3B8 /* TIBLEDeviceListPickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEDeviceListPickerManager.m; sourceTree = "<group>"; };
+		A4B1688617248A8F0085A3B8 /* TIBLEDeviceListPickerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEDeviceListPickerTableViewController.h; sourceTree = "<group>"; };
+		A4B1688717248A8F0085A3B8 /* TIBLEDeviceListPickerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEDeviceListPickerTableViewController.m; sourceTree = "<group>"; };
+		A4B1688A17248A8F0085A3B8 /* TIBLEDashboardViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEDashboardViewController_iPhone.h; sourceTree = "<group>"; };
+		A4B1688B17248A8F0085A3B8 /* TIBLEDashboardViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEDashboardViewController_iPhone.m; sourceTree = "<group>"; };
+		A4B1688C17248A8F0085A3B8 /* TIBLEDashboardViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIBLEDashboardViewController_iPhone.xib; sourceTree = "<group>"; };
+		A4B1688D17248A8F0085A3B8 /* TIBLEMainScreenViewController_iPad-landscape.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "TIBLEMainScreenViewController_iPad-landscape.xib"; sourceTree = "<group>"; };
+		A4B1688E17248A8F0085A3B8 /* TIBLEMainScreenViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEMainScreenViewController_iPad.h; sourceTree = "<group>"; };
+		A4B1688F17248A8F0085A3B8 /* TIBLEMainScreenViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEMainScreenViewController_iPad.m; sourceTree = "<group>"; };
+		A4B1689017248A8F0085A3B8 /* TIBLEMainScreenViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIBLEMainScreenViewController_iPad.xib; sourceTree = "<group>"; };
+		A4B1689117248A8F0085A3B8 /* TIBLEProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEProgressViewController.h; sourceTree = "<group>"; };
+		A4B1689217248A8F0085A3B8 /* TIBLEProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEProgressViewController.m; sourceTree = "<group>"; };
+		A4B1689317248A8F0085A3B8 /* TIBLEProgressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIBLEProgressViewController.xib; sourceTree = "<group>"; };
+		A4B1689417248A8F0085A3B8 /* TIBLESensorInfoViewController-landscape.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "TIBLESensorInfoViewController-landscape.xib"; sourceTree = "<group>"; };
+		A4B1689517248A8F0085A3B8 /* TIBLESensorInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLESensorInfoViewController.h; sourceTree = "<group>"; };
+		A4B1689617248A8F0085A3B8 /* TIBLESensorInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLESensorInfoViewController.m; sourceTree = "<group>"; };
+		A4B1689717248A8F0085A3B8 /* TIBLESensorInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIBLESensorInfoViewController.xib; sourceTree = "<group>"; };
+		A4B1689817248A8F0085A3B8 /* TIBLESensorInfoViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "TIBLESensorInfoViewController~iphone.xib"; sourceTree = "<group>"; };
+		A4B1689A17248A8F0085A3B8 /* TIBLEGraphViewController-landscape.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "TIBLEGraphViewController-landscape.xib"; sourceTree = "<group>"; };
+		A4B1689B17248A8F0085A3B8 /* TIBLEGraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEGraphViewController.h; sourceTree = "<group>"; };
+		A4B1689C17248A8F0085A3B8 /* TIBLEGraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEGraphViewController.m; sourceTree = "<group>"; };
+		A4B1689D17248A8F0085A3B8 /* TIBLEGraphViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIBLEGraphViewController.xib; sourceTree = "<group>"; };
+		A4B1689E17248A8F0085A3B8 /* TIBLEGraphViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "TIBLEGraphViewController~iphone.xib"; sourceTree = "<group>"; };
+		A4B168A017248A8F0085A3B8 /* TIBLEAboutAlertWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIBLEAboutAlertWindow.xib; sourceTree = "<group>"; };
+		A4B168A117248A8F0085A3B8 /* TIBLEAliasView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIBLEAliasView.xib; sourceTree = "<group>"; };
+		A4B168A217248A8F0085A3B8 /* TIBLEAliasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEAliasViewController.h; sourceTree = "<group>"; };
+		A4B168A317248A900085A3B8 /* TIBLEAliasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEAliasViewController.m; sourceTree = "<group>"; };
+		A4B168A417248A900085A3B8 /* TIBLECopyrightAlertWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIBLECopyrightAlertWindow.xib; sourceTree = "<group>"; };
+		A4B168A517248A900085A3B8 /* TIBLEInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEInfoViewController.h; sourceTree = "<group>"; };
+		A4B168A617248A900085A3B8 /* TIBLEInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEInfoViewController.m; sourceTree = "<group>"; };
+		A4B168A817248A900085A3B8 /* TIBLENoSensorAvailableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLENoSensorAvailableViewController.h; sourceTree = "<group>"; };
+		A4B168A917248A900085A3B8 /* TIBLENoSensorAvailableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLENoSensorAvailableViewController.m; sourceTree = "<group>"; };
+		A4B168AA17248A900085A3B8 /* TIBLENoSensorAvailableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIBLENoSensorAvailableViewController.xib; sourceTree = "<group>"; };
+		A4B168AC17248A900085A3B8 /* TIBLEFormulaSettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIBLEFormulaSettingsView.xib; sourceTree = "<group>"; };
+		A4B168AD17248A900085A3B8 /* TIBLEFormulaSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEFormulaSettingsViewController.h; sourceTree = "<group>"; };
+		A4B168AE17248A900085A3B8 /* TIBLEFormulaSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEFormulaSettingsViewController.m; sourceTree = "<group>"; };
+		A4B168AF17248A900085A3B8 /* TIBLEGraphDisplaySettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIBLEGraphDisplaySettingsView.xib; sourceTree = "<group>"; };
+		A4B168B017248A900085A3B8 /* TIBLEGraphDisplaySettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEGraphDisplaySettingsViewController.h; sourceTree = "<group>"; };
+		A4B168B117248A900085A3B8 /* TIBLEGraphDisplaySettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEGraphDisplaySettingsViewController.m; sourceTree = "<group>"; };
+		A4B168B217248A900085A3B8 /* TIBLESensorSettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIBLESensorSettingsView.xib; sourceTree = "<group>"; };
+		A4B168B317248A900085A3B8 /* TIBLESensorSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLESensorSettingsViewController.h; sourceTree = "<group>"; };
+		A4B168B417248A900085A3B8 /* TIBLESensorSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLESensorSettingsViewController.m; sourceTree = "<group>"; };
+		A4B168B517248A900085A3B8 /* TIBLESettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLESettingsViewController.h; sourceTree = "<group>"; };
+		A4B168B617248A900085A3B8 /* TIBLESettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLESettingsViewController.m; sourceTree = "<group>"; };
+		A4B168B717248A900085A3B8 /* TIBLESettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIBLESettingsViewController.xib; sourceTree = "<group>"; };
+		A4B668E11715C7EC007483BC /* gradient_bg_stretch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradient_bg_stretch@2x.png"; sourceTree = "<group>"; };
+		A4B97FB91754017E00E9BDC7 /* TIBLEInputValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEInputValidator.h; sourceTree = "<group>"; };
+		A4B97FBA1754017E00E9BDC7 /* TIBLEInputValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEInputValidator.m; sourceTree = "<group>"; };
+		A4B97FBE17542B3F00E9BDC7 /* TIBLELogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLELogger.h; sourceTree = "<group>"; };
+		A4B97FBF17542B3F00E9BDC7 /* TIBLELogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLELogger.m; sourceTree = "<group>"; };
+		A4B97FC4175585B500E9BDC7 /* UIImage+Resizable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resizable.h"; sourceTree = "<group>"; };
+		A4B97FC5175585B500E9BDC7 /* UIImage+Resizable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resizable.m"; sourceTree = "<group>"; };
+		A4B97FC7175642E500E9BDC7 /* TIBLEProgressViewController-landscape.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "TIBLEProgressViewController-landscape.xib"; sourceTree = "<group>"; };
+		A4B97FC8175642E700E9BDC7 /* TIBLEProgressViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "TIBLEProgressViewController~iphone.xib"; sourceTree = "<group>"; };
+		A4B99ECF1727072600E70B52 /* TIBLEFeatures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TIBLEFeatures.h; sourceTree = "<group>"; };
+		A4C8EA5916FA257900F272B2 /* Main_Storyboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main_Storyboard_iPhone.storyboard; path = TIBLE/Main_Storyboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A4C8EA5B16FA4AE800F272B2 /* Main_Storyboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main_Storyboard_iPad.storyboard; path = TIBLE/Main_Storyboard_iPad.storyboard; sourceTree = "<group>"; };
+		A4C8EA5D16FA56F200F272B2 /* tab_bar_graph_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_bar_graph_icon.png; sourceTree = "<group>"; };
+		A4C8EA5E16FA56F200F272B2 /* tab_bar_percentage_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_bar_percentage_icon.png; sourceTree = "<group>"; };
+		A4C8EA5F16FA56F200F272B2 /* tab_bar_sensor_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_bar_sensor_icon.png; sourceTree = "<group>"; };
+		A4C8EA6016FA56F200F272B2 /* tab_bar_settings_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_bar_settings_icon.png; sourceTree = "<group>"; };
+		A4C8EA6116FA56F200F272B2 /* tab_bar_wifi_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_bar_wifi_icon.png; sourceTree = "<group>"; };
+		A4C8EA6716FA580600F272B2 /* TIBLERootViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLERootViewController_iPhone.h; sourceTree = "<group>"; };
+		A4C8EA6816FA580700F272B2 /* TIBLERootViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLERootViewController_iPhone.m; sourceTree = "<group>"; };
+		A4C8EA6A16FA581500F272B2 /* TIBLERootViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLERootViewController_iPad.h; sourceTree = "<group>"; };
+		A4C8EA6B16FA581500F272B2 /* TIBLERootViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLERootViewController_iPad.m; sourceTree = "<group>"; };
+		A4C8EA7116FA5AB900F272B2 /* TIBLERootViewControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TIBLERootViewControllerProtocol.h; sourceTree = "<group>"; };
+		A4C8EA7716FA834000F272B2 /* popover-black-bottom-arrow-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popover-black-bottom-arrow-image.png"; sourceTree = "<group>"; };
+		A4C8EA7816FA834000F272B2 /* popover-black-left-arrow-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popover-black-left-arrow-image.png"; sourceTree = "<group>"; };
+		A4C8EA7916FA834000F272B2 /* popover-black-right-arrow-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popover-black-right-arrow-image.png"; sourceTree = "<group>"; };
+		A4C8EA7A16FA834000F272B2 /* popover-black-top-arrow-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popover-black-top-arrow-image.png"; sourceTree = "<group>"; };
+		A4C8EA7B16FA834000F272B2 /* popover-black-bcg-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popover-black-bcg-image.png"; sourceTree = "<group>"; };
+		A4C8EA7C16FA834000F272B2 /* popover-black-top-arrow-image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popover-black-top-arrow-image@2x.png"; sourceTree = "<group>"; };
+		A4C8EA7D16FA834000F272B2 /* popover-black-right-arrow-image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popover-black-right-arrow-image@2x.png"; sourceTree = "<group>"; };
+		A4C8EA7E16FA834000F272B2 /* popover-black-left-arrow-image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popover-black-left-arrow-image@2x.png"; sourceTree = "<group>"; };
+		A4C8EA7F16FA834000F272B2 /* popover-black-bottom-arrow-image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popover-black-bottom-arrow-image@2x.png"; sourceTree = "<group>"; };
+		A4C8EA8016FA834100F272B2 /* popover-black-bcg-image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popover-black-bcg-image@2x.png"; sourceTree = "<group>"; };
+		A4D6351917344DE5003CB6A9 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A4D6CA8D1738286000158DA4 /* TIBLEAlertWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEAlertWindow.h; sourceTree = "<group>"; };
+		A4D6CA8E1738286000158DA4 /* TIBLEAlertWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEAlertWindow.m; sourceTree = "<group>"; };
+		A4D6CA94173868FA00158DA4 /* TIBLEPlotConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEPlotConstants.h; sourceTree = "<group>"; };
+		A4D6CA95173868FA00158DA4 /* TIBLEPlotConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEPlotConstants.m; sourceTree = "<group>"; };
+		A4D6CA9C173AA61000158DA4 /* TIBLEActivityPrintProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEActivityPrintProvider.h; sourceTree = "<group>"; };
+		A4D6CA9D173AA61000158DA4 /* TIBLEActivityPrintProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEActivityPrintProvider.m; sourceTree = "<group>"; };
+		A4D6CA9F173AD0F500158DA4 /* TIBLEActivityClipboardProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEActivityClipboardProvider.h; sourceTree = "<group>"; };
+		A4D6CAA0173AD0F600158DA4 /* TIBLEActivityClipboardProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEActivityClipboardProvider.m; sourceTree = "<group>"; };
+		A4D6CAA2173AD10A00158DA4 /* TIBLEActivityMailProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLEActivityMailProvider.h; sourceTree = "<group>"; };
+		A4D6CAA3173AD10B00158DA4 /* TIBLEActivityMailProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLEActivityMailProvider.m; sourceTree = "<group>"; };
+		A4D6CAA5173ADAAD00158DA4 /* TIBLEScatterPlotViewController+Export.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TIBLEScatterPlotViewController+Export.h"; sourceTree = "<group>"; };
+		A4D6CAA6173ADAAD00158DA4 /* TIBLEScatterPlotViewController+Export.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TIBLEScatterPlotViewController+Export.m"; sourceTree = "<group>"; };
+		A4D6CAA8173ADB7000158DA4 /* TIBLEScatterPlotViewController+Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TIBLEScatterPlotViewController+Annotation.h"; sourceTree = "<group>"; };
+		A4D6CAA9173ADB7100158DA4 /* TIBLEScatterPlotViewController+Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TIBLEScatterPlotViewController+Annotation.m"; sourceTree = "<group>"; };
+		A4D6CAAB173ADBF700158DA4 /* TIBLEScatterPlotViewController+DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TIBLEScatterPlotViewController+DataSource.h"; sourceTree = "<group>"; };
+		A4D6CAAC173ADBF700158DA4 /* TIBLEScatterPlotViewController+DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TIBLEScatterPlotViewController+DataSource.m"; sourceTree = "<group>"; };
+		A4D6CAAE173ADC0500158DA4 /* TIBLEScatterPlotViewController+PlotSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TIBLEScatterPlotViewController+PlotSpace.h"; sourceTree = "<group>"; };
+		A4D6CAAF173ADC0600158DA4 /* TIBLEScatterPlotViewController+PlotSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TIBLEScatterPlotViewController+PlotSpace.m"; sourceTree = "<group>"; };
+		A4D6CAB1173ADD6500158DA4 /* TIBLEScatterPlotViewController+RealTimeRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TIBLEScatterPlotViewController+RealTimeRefresh.h"; sourceTree = "<group>"; };
+		A4D6CAB2173ADD6700158DA4 /* TIBLEScatterPlotViewController+RealTimeRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TIBLEScatterPlotViewController+RealTimeRefresh.m"; sourceTree = "<group>"; };
+		A4D6CAB4173AE24D00158DA4 /* TIBLEScatterPlotViewController+Range.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TIBLEScatterPlotViewController+Range.h"; sourceTree = "<group>"; };
+		A4D6CAB5173AE24F00158DA4 /* TIBLEScatterPlotViewController+Range.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TIBLEScatterPlotViewController+Range.m"; sourceTree = "<group>"; };
+		E00BAAFC172C73A200B56119 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		E00BAAFE172C741A00B56119 /* OxygenSensor_Schematic.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = OxygenSensor_Schematic.pdf; sourceTree = "<group>"; };
+		E00BAB01172E9BCF00B56119 /* TIBLELoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLELoadingViewController.h; sourceTree = "<group>"; };
+		E00BAB02172E9BCF00B56119 /* TIBLELoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLELoadingViewController.m; sourceTree = "<group>"; };
+		E00BAB03172E9BCF00B56119 /* TIBLELoadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIBLELoadingViewController.xib; sourceTree = "<group>"; };
+		E01D887516EA7728003CB8A0 /* TI Gas Sensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TI Gas Sensor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E01D887816EA7728003CB8A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E01D887A16EA7728003CB8A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E01D887C16EA7728003CB8A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E01D888016EA7728003CB8A0 /* TIBLE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TIBLE-Info.plist"; sourceTree = "<group>"; };
+		E01D888216EA7728003CB8A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E01D888416EA7728003CB8A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E01D888616EA7728003CB8A0 /* TIBLE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TIBLE-Prefix.pch"; sourceTree = "<group>"; };
+		E01D888716EA7728003CB8A0 /* TIBLEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TIBLEAppDelegate.h; path = TIBLE/TIBLEAppDelegate.h; sourceTree = "<group>"; };
+		E01D888816EA7728003CB8A0 /* TIBLEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TIBLEAppDelegate.m; path = TIBLE/TIBLEAppDelegate.m; sourceTree = "<group>"; };
+		E01D888A16EA7728003CB8A0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E01D888C16EA7728003CB8A0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E01D888E16EA7728003CB8A0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E01D88A016EA8DA7003CB8A0 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		E0441D5117340D0F00487671 /* TIBLETextFieldCellLarge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIBLETextFieldCellLarge.h; sourceTree = "<group>"; };
+		E0441D5217340D1000487671 /* TIBLETextFieldCellLarge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIBLETextFieldCellLarge.m; sourceTree = "<group>"; };
+		E0441D5417340D3500487671 /* TIBLETextFieldCellLarge.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIBLETextFieldCellLarge.xib; sourceTree = "<group>"; };
+		E046B80F172190EA00B5AD55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		E046B811172190EA00B5AD55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		E067EEB017033203003BE92A /* background_graph_portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_graph_portrait.png; sourceTree = "<group>"; };
+		E067EEB117033203003BE92A /* background_sensor_info_portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_sensor_info_portrait.png; sourceTree = "<group>"; };
+		E0D03F541737F5AF00482DA7 /* TIBLEURLConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TIBLEURLConstants.h; sourceTree = "<group>"; };
+		E0D03F5517380D2D00482DA7 /* TIBLEResourceConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TIBLEResourceConstants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E01D887216EA7728003CB8A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D6351A17344DE6003CB6A9 /* MessageUI.framework in Frameworks */,
+				E00BAAFD172C73A200B56119 /* QuickLook.framework in Frameworks */,
+				A4ABCBF916F775DF0075B22C /* QuartzCore.framework in Frameworks */,
+				A458036016EFCCAE0019023A /* CoreBluetooth.framework in Frameworks */,
+				E01D887916EA7728003CB8A0 /* UIKit.framework in Frameworks */,
+				E01D887B16EA7728003CB8A0 /* Foundation.framework in Frameworks */,
+				E01D887D16EA7728003CB8A0 /* CoreGraphics.framework in Frameworks */,
+				A4F83F0D1732ADB300952F2E /* libCorePlot-CocoaTouch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4427FE617249FCC005C2299 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A442804817259490005C2299 /* TIBLEAlertManager.h */,
+				A442804917259490005C2299 /* TIBLEAlertManager.m */,
+				A4427FE717249FCC005C2299 /* TIBLEDevicesManager.h */,
+				A4427FE817249FCC005C2299 /* TIBLEDevicesManager.m */,
+				A4427FE917249FCC005C2299 /* TIBLESettingsManager.h */,
+				A4427FEA17249FCC005C2299 /* TIBLESettingsManager.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4427FED17249FED005C2299 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				A4B167D117248A8F0085A3B8 /* ColorPicker */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		A44280451725881A005C2299 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A44280461725881A005C2299 /* Avenir.ttc */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A4A47CC4172786A100841729 /* CorePlot */ = {
+			isa = PBXGroup;
+			children = (
+				A4A47CC5172786A100841729 /* inc */,
+				A4A47D10172786A100841729 /* lib */,
+				A4D6CA94173868FA00158DA4 /* TIBLEPlotConstants.h */,
+				A4D6CA95173868FA00158DA4 /* TIBLEPlotConstants.m */,
+				A4A47D15172786A100841729 /* TIBLEScatterPlotViewController.h */,
+				A4A47D16172786A100841729 /* TIBLEScatterPlotViewController.m */,
+				A4D6CAA5173ADAAD00158DA4 /* TIBLEScatterPlotViewController+Export.h */,
+				A4D6CAA6173ADAAD00158DA4 /* TIBLEScatterPlotViewController+Export.m */,
+				A4D6CAA8173ADB7000158DA4 /* TIBLEScatterPlotViewController+Annotation.h */,
+				A4D6CAA9173ADB7100158DA4 /* TIBLEScatterPlotViewController+Annotation.m */,
+				A4D6CAAB173ADBF700158DA4 /* TIBLEScatterPlotViewController+DataSource.h */,
+				A4D6CAAC173ADBF700158DA4 /* TIBLEScatterPlotViewController+DataSource.m */,
+				A4D6CAAE173ADC0500158DA4 /* TIBLEScatterPlotViewController+PlotSpace.h */,
+				A4D6CAAF173ADC0600158DA4 /* TIBLEScatterPlotViewController+PlotSpace.m */,
+				A4D6CAB1173ADD6500158DA4 /* TIBLEScatterPlotViewController+RealTimeRefresh.h */,
+				A4D6CAB2173ADD6700158DA4 /* TIBLEScatterPlotViewController+RealTimeRefresh.m */,
+				A4D6CAB4173AE24D00158DA4 /* TIBLEScatterPlotViewController+Range.h */,
+				A4D6CAB5173AE24F00158DA4 /* TIBLEScatterPlotViewController+Range.m */,
+				A446F024174C08A800E7100B /* TIBLEScatterPlotViewController+Utils.h */,
+				A446F025174C08AA00E7100B /* TIBLEScatterPlotViewController+Utils.m */,
+			);
+			name = CorePlot;
+			path = TIBLE/CorePlot;
+			sourceTree = SOURCE_ROOT;
+		};
+		A4A47CC5172786A100841729 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				A4A47CC6172786A100841729 /* CorePlot-CocoaTouch.h */,
+				A4A47CC7172786A100841729 /* CPTAnnotation.h */,
+				A4A47CC8172786A100841729 /* CPTAnnotationHostLayer.h */,
+				A4A47CC9172786A100841729 /* CPTAxis.h */,
+				A4A47CCA172786A100841729 /* CPTAxisLabel.h */,
+				A4A47CCB172786A100841729 /* CPTAxisLabelGroup.h */,
+				A4A47CCC172786A100841729 /* CPTAxisSet.h */,
+				A4A47CCD172786A100841729 /* CPTAxisTitle.h */,
+				A4A47CCE172786A100841729 /* CPTBarPlot.h */,
+				A4A47CCF172786A100841729 /* CPTBorderedLayer.h */,
+				A4A47CD0172786A100841729 /* CPTCalendarFormatter.h */,
+				A4A47CD1172786A100841729 /* CPTColor.h */,
+				A4A47CD2172786A100841729 /* CPTColorSpace.h */,
+				A4A47CD3172786A100841729 /* CPTConstraints.h */,
+				A4A47CD4172786A100841729 /* CPTDataSourceTestCase.h */,
+				A4A47CD5172786A100841729 /* CPTDefinitions.h */,
+				A4A47CD6172786A100841729 /* CPTDerivedXYGraph.h */,
+				A4A47CD7172786A100841729 /* CPTExceptions.h */,
+				A4A47CD8172786A100841729 /* CPTFill.h */,
+				A4A47CD9172786A100841729 /* CPTGradient.h */,
+				A4A47CDA172786A100841729 /* CPTGraph.h */,
+				A4A47CDB172786A100841729 /* CPTGraphHostingView.h */,
+				A4A47CDC172786A100841729 /* CPTGridLineGroup.h */,
+				A4A47CDD172786A100841729 /* CPTGridLines.h */,
+				A4A47CDE172786A100841729 /* CPTImage.h */,
+				A4A47CDF172786A100841729 /* CPTLayer.h */,
+				A4A47CE0172786A100841729 /* CPTLayerAnnotation.h */,
+				A4A47CE1172786A100841729 /* CPTLegend.h */,
+				A4A47CE2172786A100841729 /* CPTLegendEntry.h */,
+				A4A47CE3172786A100841729 /* CPTLimitBand.h */,
+				A4A47CE4172786A100841729 /* CPTLineCap.h */,
+				A4A47CE5172786A100841729 /* CPTLineStyle.h */,
+				A4A47CE6172786A100841729 /* CPTMutableLineStyle.h */,
+				A4A47CE7172786A100841729 /* CPTMutableNumericData+TypeConversion.h */,
+				A4A47CE8172786A100841729 /* CPTMutableNumericData.h */,
+				A4A47CE9172786A100841729 /* CPTMutablePlotRange.h */,
+				A4A47CEA172786A100841729 /* CPTMutableShadow.h */,
+				A4A47CEB172786A100841729 /* CPTMutableTextStyle.h */,
+				A4A47CEC172786A100841729 /* CPTNumericData+TypeConversion.h */,
+				A4A47CED172786A100841729 /* CPTNumericData.h */,
+				A4A47CEE172786A100841729 /* CPTNumericDataType.h */,
+				A4A47CEF172786A100841729 /* CPTPathExtensions.h */,
+				A4A47CF0172786A100841729 /* CPTPieChart.h */,
+				A4A47CF1172786A100841729 /* CPTPlatformSpecificCategories.h */,
+				A4A47CF2172786A100841729 /* CPTPlatformSpecificDefines.h */,
+				A4A47CF3172786A100841729 /* CPTPlatformSpecificFunctions.h */,
+				A4A47CF4172786A100841729 /* CPTPlot.h */,
+				A4A47CF5172786A100841729 /* CPTPlotArea.h */,
+				A4A47CF6172786A100841729 /* CPTPlotAreaFrame.h */,
+				A4A47CF7172786A100841729 /* CPTPlotGroup.h */,
+				A4A47CF8172786A100841729 /* CPTPlotRange.h */,
+				A4A47CF9172786A100841729 /* CPTPlotSpace.h */,
+				A4A47CFA172786A100841729 /* CPTPlotSpaceAnnotation.h */,
+				A4A47CFB172786A100841729 /* CPTPlotSymbol.h */,
+				A4A47CFC172786A100841729 /* CPTRangePlot.h */,
+				A4A47CFD172786A100841729 /* CPTResponder.h */,
+				A4A47CFE172786A100841729 /* CPTScatterPlot.h */,
+				A4A47CFF172786A100841729 /* CPTShadow.h */,
+				A4A47D00172786A100841729 /* CPTTestCase.h */,
+				A4A47D01172786A100841729 /* CPTTextLayer.h */,
+				A4A47D02172786A100841729 /* CPTTextStyle.h */,
+				A4A47D03172786A100841729 /* CPTTextStylePlatformSpecific.h */,
+				A4A47D04172786A100841729 /* CPTTheme.h */,
+				A4A47D05172786A100841729 /* CPTTimeFormatter.h */,
+				A4A47D06172786A100841729 /* CPTTradingRangePlot.h */,
+				A4A47D07172786A100841729 /* CPTUtilities.h */,
+				A4A47D08172786A100841729 /* CPTXYAxis.h */,
+				A4A47D09172786A100841729 /* CPTXYAxisSet.h */,
+				A4A47D0A172786A100841729 /* CPTXYGraph.h */,
+				A4A47D0B172786A100841729 /* CPTXYPlotSpace.h */,
+				A4A47D0C172786A100841729 /* mainpage.h */,
+				A4A47D0D172786A100841729 /* NSCoderExtensions.h */,
+				A4A47D0E172786A100841729 /* NSDecimalNumberExtensions.h */,
+				A4A47D0F172786A100841729 /* NSNumberExtensions.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		A4A47D10172786A100841729 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A4A47D11172786A100841729 /* libCorePlot-CocoaTouch.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		A4ABCBB816F772D20075B22C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				98808BED17345BD600E68ED4 /* ti.png */,
+				98808BEE17345BD600E68ED4 /* ti@2x.png */,
+				983595F5171CB38500B6CEED /* background_graph_landscape.png */,
+				983CE1B0171DFA5C0054BBB6 /* refresh_button.png */,
+				983CE1B1171DFA5C0054BBB6 /* refresh_button@2x.png */,
+				983595F6171CB38500B6CEED /* background_graph_landscape@2x.png */,
+				983595F7171CB38500B6CEED /* background_sensor_info_landscape.png */,
+				983595F8171CB38500B6CEED /* background_sensor_info_landscape@2x.png */,
+				98EF0672171745CE00E1A5F9 /* tible_icon_appstore-512.png */,
+				98EF0673171745CE00E1A5F9 /* tible_icon_appstore-1024.png */,
+				98EF0674171745CE00E1A5F9 /* tible_icon-57.png */,
+				98EF0675171745CE00E1A5F9 /* tible_icon-72.png */,
+				98EF0676171745CE00E1A5F9 /* tible_icon-114.png */,
+				98EF0677171745CE00E1A5F9 /* tible_icon-144.png */,
+				98DBD16A17161620004F5807 /* krasamo.png */,
+				98DBD16B17161620004F5807 /* krasamo@2x.png */,
+				987E87961713601B00415BD1 /* alert_button.png */,
+				987E87971713601B00415BD1 /* alert_button@2x.png */,
+				A47B487617121FBA009FAF6D /* alert_view_background.png */,
+				989C2F661713502C0057F728 /* alert_view_background@2x.png */,
+				98DBD15C1715DF9C004F5807 /* alert_view_content_background.png */,
+				98DBD15D1715DF9C004F5807 /* alert_view_content_background@2x.png */,
+				E067EEB017033203003BE92A /* background_graph_portrait.png */,
+				9854F838170B62AD00FC7647 /* background_graph_portrait@2x.png */,
+				9854F84E170B675D00FC7647 /* background_graph_title_portrait.png */,
+				9854F84F170B675D00FC7647 /* background_graph_title_portrait@2x.png */,
+				E067EEB117033203003BE92A /* background_sensor_info_portrait.png */,
+				9854F839170B62AD00FC7647 /* background_sensor_info_portrait@2x.png */,
+				A4ABCBBD16F772D20075B22C /* button_background.png */,
+				9854F851170B675D00FC7647 /* button_background@2x.png */,
+				A4ABCBC016F772D20075B22C /* checkmark.png */,
+				9854F83A170B62AD00FC7647 /* checkmark@2x.png */,
+				A4ABCBC216F772D20075B22C /* formula.png */,
+				9854F83C170B62AD00FC7647 /* formula@2x.png */,
+				A4ABCBC416F772D20075B22C /* formula_sticky.png */,
+				9854F83B170B62AD00FC7647 /* formula_sticky@2x.png */,
+				986B6C47170C9FE3008981CD /* gradient_bg_stretch.png */,
+				A4B668E11715C7EC007483BC /* gradient_bg_stretch@2x.png */,
+				A4ABCBC516F772D20075B22C /* graph_annotation.png */,
+				9854F83D170B62AD00FC7647 /* graph_annotation@2x.png */,
+				A4ABCBC716F772D20075B22C /* graph_sticky.png */,
+				9854F83E170B62AD00FC7647 /* graph_sticky@2x.png */,
+				A4ABCBC816F772D20075B22C /* info_screen.png */,
+				98D5F744170E2DFA002C8F42 /* info_screen@2x.png */,
+				98B2A133170DE9EA00DD532F /* info_screen@2x~ipad.png */,
+				A4ABCBC916F772D20075B22C /* info_screen~ipad.png */,
+				A4ABCBCA16F772D20075B22C /* message_background.png */,
+				9854F83F170B62AD00FC7647 /* message_background@2x.png */,
+				98DBD1601715FFC9004F5807 /* pause_button.png */,
+				98DBD1611715FFC9004F5807 /* pause_button@2x.png */,
+				98DBD1621715FFC9004F5807 /* play_button.png */,
+				98DBD1631715FFC9004F5807 /* play_button@2x.png */,
+				A4C8EA7B16FA834000F272B2 /* popover-black-bcg-image.png */,
+				A4C8EA8016FA834100F272B2 /* popover-black-bcg-image@2x.png */,
+				A4C8EA7716FA834000F272B2 /* popover-black-bottom-arrow-image.png */,
+				A4C8EA7F16FA834000F272B2 /* popover-black-bottom-arrow-image@2x.png */,
+				A4C8EA7816FA834000F272B2 /* popover-black-left-arrow-image.png */,
+				A4C8EA7E16FA834000F272B2 /* popover-black-left-arrow-image@2x.png */,
+				A4C8EA7916FA834000F272B2 /* popover-black-right-arrow-image.png */,
+				A4C8EA7D16FA834000F272B2 /* popover-black-right-arrow-image@2x.png */,
+				A4C8EA7A16FA834000F272B2 /* popover-black-top-arrow-image.png */,
+				A4C8EA7C16FA834000F272B2 /* popover-black-top-arrow-image@2x.png */,
+				98D5F740170E280E002C8F42 /* progress-bar.png */,
+				98D5F741170E280E002C8F42 /* progress-bar@2x.png */,
+				98D5F73D170E2640002C8F42 /* progress-bar~ipad.png */,
+				98D5F73C170E2640002C8F42 /* progress-bar@2x~ipad.png */,
+				9836EAB01731B9E2000757B2 /* progress-bar-landscape~ipad.png */,
+				9836EAB11731B9E2000757B2 /* progress-bar-portrait~ipad.png */,
+				9836EAB21731B9E2000757B2 /* progress-bar@2x-landscape~ipad.png */,
+				9836EAB31731B9E2000757B2 /* progress-bar@2x-portrait~ipad.png */,
+				A4ABCC0E16F803CA0075B22C /* red_cross.png */,
+				9854F841170B62AD00FC7647 /* red_cross@2x.png */,
+				A4ABCBCD16F772D20075B22C /* sensor_sticky.png */,
+				9854F842170B62AD00FC7647 /* sensor_sticky@2x.png */,
+				A4C8EA5D16FA56F200F272B2 /* tab_bar_graph_icon.png */,
+				A4ABCBD216F772D20075B22C /* tab_bar_graph_icon@2x.png */,
+				A4C8EA5E16FA56F200F272B2 /* tab_bar_percentage_icon.png */,
+				A4ABCBD316F772D20075B22C /* tab_bar_percentage_icon@2x.png */,
+				A4C8EA5F16FA56F200F272B2 /* tab_bar_sensor_icon.png */,
+				A4ABCBD416F772D20075B22C /* tab_bar_sensor_icon@2x.png */,
+				98DBD1681716055D004F5807 /* tab_bar_sensor_icon@2x~ipad.png */,
+				98AE3E70170CD76700D33EC4 /* tab_bar_sensor_icon~ipad.png */,
+				A4C8EA6016FA56F200F272B2 /* tab_bar_settings_icon.png */,
+				A4ABCBD516F772D20075B22C /* tab_bar_settings_icon@2x.png */,
+				A4C8EA6116FA56F200F272B2 /* tab_bar_wifi_icon.png */,
+				A4ABCBD616F772D20075B22C /* tab_bar_wifi_icon@2x.png */,
+				A4ABCBD716F772D20075B22C /* warning_icon.png */,
+				9832B300171474CB00AA0F05 /* warning_icon@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A4B167C417248A8F0085A3B8 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				A4B167C517248A8F0085A3B8 /* CBUUID+StringExtraction.h */,
+				A4B167C617248A8F0085A3B8 /* CBUUID+StringExtraction.m */,
+				A4B167C717248A8F0085A3B8 /* TIBLECharacteristics.h */,
+				A4B167C817248A8F0085A3B8 /* TIBLECharacteristics.m */,
+				A4B167C917248A8F0085A3B8 /* TIBLEDiscovery.h */,
+				A4B167CA17248A8F0085A3B8 /* TIBLEDiscovery.m */,
+				A4B167CB17248A8F0085A3B8 /* TIBLEPeripheral.h */,
+				A4B167CC17248A8F0085A3B8 /* TIBLEPeripheral.m */,
+				A4B167CD17248A8F0085A3B8 /* TIBLEService.h */,
+				A4B167CE17248A8F0085A3B8 /* TIBLEService.m */,
+				A4B167CF17248A8F0085A3B8 /* TIBLEUtilities.h */,
+				A4B167D017248A8F0085A3B8 /* TIBLEUtilities.m */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		A4B167D117248A8F0085A3B8 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				A4B167D217248A8F0085A3B8 /* colorPicker.bundle */,
+				A4B167D317248A8F0085A3B8 /* NEOColorPickerBaseViewController.h */,
+				A4B167D417248A8F0085A3B8 /* NEOColorPickerBaseViewController.m */,
+				A4B167D517248A8F0085A3B8 /* NEOColorPickerFavoritesViewController.h */,
+				A4B167D617248A8F0085A3B8 /* NEOColorPickerFavoritesViewController.m */,
+				A4B167D717248A8F0085A3B8 /* NEOColorPickerFavoritesViewController.xib */,
+				A4B167D817248A8F0085A3B8 /* NEOColorPickerGradientView.h */,
+				A4B167D917248A8F0085A3B8 /* NEOColorPickerGradientView.m */,
+				A4B167DA17248A8F0085A3B8 /* NEOColorPickerHSLViewController.h */,
+				A4B167DB17248A8F0085A3B8 /* NEOColorPickerHSLViewController.m */,
+				A4B167DC17248A8F0085A3B8 /* NEOColorPickerHSLViewController.xib */,
+				A4B167DD17248A8F0085A3B8 /* NEOColorPickerHueGridViewController.h */,
+				A4B167DE17248A8F0085A3B8 /* NEOColorPickerHueGridViewController.m */,
+				A4B167DF17248A8F0085A3B8 /* NEOColorPickerHueGridViewController.xib */,
+				A4B167E017248A8F0085A3B8 /* NEOColorPickerViewController.h */,
+				A4B167E117248A8F0085A3B8 /* NEOColorPickerViewController.m */,
+				A4B167E217248A8F0085A3B8 /* NEOColorPickerViewController.xib */,
+				A4B167E317248A8F0085A3B8 /* UIColor+NEOColor.h */,
+				A4B167E417248A8F0085A3B8 /* UIColor+NEOColor.m */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		A4B167E517248A8F0085A3B8 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				A4B167E617248A8F0085A3B8 /* TIBLECharacteristicsSingleton.h */,
+				A4B167E717248A8F0085A3B8 /* TIBLECharacteristicsSingleton.m */,
+				A4B167E817248A8F0085A3B8 /* TIBLESensorConfigurationConstants.plist */,
+				A4B167E917248A8F0085A3B8 /* TIBLESensorConstants.h */,
+				A4B167EA17248A8F0085A3B8 /* TIBLESensorProfileConstants.plist */,
+				A4B167EB17248A8F0085A3B8 /* TIBLEUIConstants.h */,
+				A4B167EC17248A8F0085A3B8 /* TIBLEUserDefaultConstants.h */,
+				A4B99ECF1727072600E70B52 /* TIBLEFeatures.h */,
+				E0D03F541737F5AF00482DA7 /* TIBLEURLConstants.h */,
+				E0D03F5517380D2D00482DA7 /* TIBLEResourceConstants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		A4B1684A17248A8F0085A3B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A46E64341729D73700C6C21E /* TIBLERawSampleModel.h */,
+				A46E64351729D73700C6C21E /* TIBLERawSampleModel.m */,
+				A4B1684B17248A8F0085A3B8 /* TIBLERawDataModel.h */,
+				A4B1684C17248A8F0085A3B8 /* TIBLERawDataModel.m */,
+				A4B1684D17248A8F0085A3B8 /* TIBLESampleModel.h */,
+				A4B1684E17248A8F0085A3B8 /* TIBLESampleModel.m */,
+				A4B1684F17248A8F0085A3B8 /* TIBLESampleQueue.h */,
+				A4B1685017248A8F0085A3B8 /* TIBLESampleQueue.m */,
+				A4B1685117248A8F0085A3B8 /* TIBLESavedSensor.h */,
+				A4B1685217248A8F0085A3B8 /* TIBLESavedSensor.m */,
+				A4B1685317248A8F0085A3B8 /* TIBLESensorMath.h */,
+				A4B1685417248A8F0085A3B8 /* TIBLESensorMath.m */,
+				A4B1685517248A8F0085A3B8 /* TIBLESensorModel.h */,
+				A4B1685617248A8F0085A3B8 /* TIBLESensorModel.m */,
+				A4B1685717248A8F0085A3B8 /* TIBLESensorProfile.h */,
+				A4B1685817248A8F0085A3B8 /* TIBLESensorProfile.m */,
+				A4B97FB91754017E00E9BDC7 /* TIBLEInputValidator.h */,
+				A4B97FBA1754017E00E9BDC7 /* TIBLEInputValidator.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4B1685E17248A8F0085A3B8 /* UI-Components */ = {
+			isa = PBXGroup;
+			children = (
+				A4D6CA9B173AA5EA00158DA4 /* ViewControllers */,
+				A4D6CA8C1738284300158DA4 /* Windows */,
+				A4B1685F17248A8F0085A3B8 /* Categories */,
+				A4B1686417248A8F0085A3B8 /* TableViewCells */,
+				A4B1687417248A8F0085A3B8 /* Views */,
+			);
+			path = "UI-Components";
+			sourceTree = "<group>";
+		};
+		A4B1685F17248A8F0085A3B8 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A4B1686017248A8F0085A3B8 /* UIColor+LightAndDark.h */,
+				A4B1686117248A8F0085A3B8 /* UIColor+LightAndDark.m */,
+				A4B1686217248A8F0085A3B8 /* UIImageView+GeometryConversion.h */,
+				A4B1686317248A8F0085A3B8 /* UIImageView+GeometryConversion.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		A4B1686417248A8F0085A3B8 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				A4B1686517248A8F0085A3B8 /* TIBLEColorCell.h */,
+				A4B1686617248A8F0085A3B8 /* TIBLEColorCell.m */,
+				A4B1686717248A8F0085A3B8 /* TIBLEColorCell.xib */,
+				A4B1686817248A8F0085A3B8 /* TIBLESelectableCell.h */,
+				A4B1686917248A8F0085A3B8 /* TIBLESelectableCell.m */,
+				A4B1686A17248A8F0085A3B8 /* TIBLESelectableCell.xib */,
+				A4B1686B17248A8F0085A3B8 /* TIBLESelectableSensorCell.h */,
+				A4B1686C17248A8F0085A3B8 /* TIBLESelectableSensorCell.m */,
+				A4B1686D17248A8F0085A3B8 /* TIBLESelectableSensorCell.xib */,
+				A4B1686E17248A8F0085A3B8 /* TIBLESwitchCell.h */,
+				A4B1686F17248A8F0085A3B8 /* TIBLESwitchCell.m */,
+				A4B1687017248A8F0085A3B8 /* TIBLESwitchCell.xib */,
+				A4B1687117248A8F0085A3B8 /* TIBLETextFieldCell.h */,
+				A4B1687217248A8F0085A3B8 /* TIBLETextFieldCell.m */,
+				A4B1687317248A8F0085A3B8 /* TIBLETextFieldCell.xib */,
+				E0441D5117340D0F00487671 /* TIBLETextFieldCellLarge.h */,
+				E0441D5217340D1000487671 /* TIBLETextFieldCellLarge.m */,
+				E0441D5417340D3500487671 /* TIBLETextFieldCellLarge.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		A4B1687417248A8F0085A3B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4B1687517248A8F0085A3B8 /* KSCustomPopoverBackgroundView.h */,
+				A4B1687617248A8F0085A3B8 /* KSCustomPopoverBackgroundView.m */,
+				A4B1687717248A8F0085A3B8 /* TIBLECheckmark.h */,
+				A4B1687817248A8F0085A3B8 /* TIBLECheckmark.m */,
+				A4B1687917248A8F0085A3B8 /* TIBLEHeaderView.h */,
+				A4B1687A17248A8F0085A3B8 /* TIBLEHeaderView.m */,
+				A4B1687B17248A8F0085A3B8 /* TIBLEProgressView.h */,
+				A4B1687C17248A8F0085A3B8 /* TIBLEProgressView.m */,
+				A4B1687D17248A8F0085A3B8 /* TIBLEStretchableImageView.h */,
+				A4B1687E17248A8F0085A3B8 /* TIBLEStretchableImageView.m */,
+				A4A70B491730623100F497E6 /* TIBLEClearBackgroundView.h */,
+				A4A70B4A1730623100F497E6 /* TIBLEClearBackgroundView.m */,
+				A4B97FC4175585B500E9BDC7 /* UIImage+Resizable.h */,
+				A4B97FC5175585B500E9BDC7 /* UIImage+Resizable.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4B1687F17248A8F0085A3B8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E00BAB00172E9BCF00B56119 /* Loading */,
+				A4B1688017248A8F0085A3B8 /* Connect */,
+				A4B1688917248A8F0085A3B8 /* Dashboard-Main */,
+				A4B1689917248A8F0085A3B8 /* Graph */,
+				A4B1689F17248A8F0085A3B8 /* Info */,
+				A4B168A717248A900085A3B8 /* NoSensorAvailable */,
+				A4B168AB17248A900085A3B8 /* Settings */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A4B1688017248A8F0085A3B8 /* Connect */ = {
+			isa = PBXGroup;
+			children = (
+				A4B1688117248A8F0085A3B8 /* TIBLEConnectViewController.h */,
+				A4B1688217248A8F0085A3B8 /* TIBLEConnectViewController.m */,
+				A4B1688317248A8F0085A3B8 /* TIBLEConnectViewController.xib */,
+				A4B1688417248A8F0085A3B8 /* TIBLEDeviceListPickerManager.h */,
+				A4B1688517248A8F0085A3B8 /* TIBLEDeviceListPickerManager.m */,
+				A4B1688617248A8F0085A3B8 /* TIBLEDeviceListPickerTableViewController.h */,
+				A4B1688717248A8F0085A3B8 /* TIBLEDeviceListPickerTableViewController.m */,
+				A4A70B4D173076BC00F497E6 /* TIBLEDevicesListAlertWindow~iphone.xib */,
+				A4A70B4E173076BC00F497E6 /* TIBLEDevicesListAlertWindow.xib */,
+			);
+			path = Connect;
+			sourceTree = "<group>";
+		};
+		A4B1688917248A8F0085A3B8 /* Dashboard-Main */ = {
+			isa = PBXGroup;
+			children = (
+				A4B1688A17248A8F0085A3B8 /* TIBLEDashboardViewController_iPhone.h */,
+				A4B1688B17248A8F0085A3B8 /* TIBLEDashboardViewController_iPhone.m */,
+				A4B1688C17248A8F0085A3B8 /* TIBLEDashboardViewController_iPhone.xib */,
+				A4B1688E17248A8F0085A3B8 /* TIBLEMainScreenViewController_iPad.h */,
+				A4B1688F17248A8F0085A3B8 /* TIBLEMainScreenViewController_iPad.m */,
+				A4B1689017248A8F0085A3B8 /* TIBLEMainScreenViewController_iPad.xib */,
+				A4B1688D17248A8F0085A3B8 /* TIBLEMainScreenViewController_iPad-landscape.xib */,
+				A4B1689117248A8F0085A3B8 /* TIBLEProgressViewController.h */,
+				A4B1689217248A8F0085A3B8 /* TIBLEProgressViewController.m */,
+				A4B97FC7175642E500E9BDC7 /* TIBLEProgressViewController-landscape.xib */,
+				A4B97FC8175642E700E9BDC7 /* TIBLEProgressViewController~iphone.xib */,
+				A4B1689317248A8F0085A3B8 /* TIBLEProgressViewController.xib */,
+				A4B1689517248A8F0085A3B8 /* TIBLESensorInfoViewController.h */,
+				A4B1689617248A8F0085A3B8 /* TIBLESensorInfoViewController.m */,
+				A4B1689717248A8F0085A3B8 /* TIBLESensorInfoViewController.xib */,
+				A4B1689417248A8F0085A3B8 /* TIBLESensorInfoViewController-landscape.xib */,
+				A4B1689817248A8F0085A3B8 /* TIBLESensorInfoViewController~iphone.xib */,
+			);
+			path = "Dashboard-Main";
+			sourceTree = "<group>";
+		};
+		A4B1689917248A8F0085A3B8 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				A4A47CC4172786A100841729 /* CorePlot */,
+				A4B1689B17248A8F0085A3B8 /* TIBLEGraphViewController.h */,
+				A4B1689C17248A8F0085A3B8 /* TIBLEGraphViewController.m */,
+				A4B1689D17248A8F0085A3B8 /* TIBLEGraphViewController.xib */,
+				A4B1689E17248A8F0085A3B8 /* TIBLEGraphViewController~iphone.xib */,
+				A4B1689A17248A8F0085A3B8 /* TIBLEGraphViewController-landscape.xib */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		A4B1689F17248A8F0085A3B8 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				A4B168A017248A8F0085A3B8 /* TIBLEAboutAlertWindow.xib */,
+				A4B168A117248A8F0085A3B8 /* TIBLEAliasView.xib */,
+				A4B168A217248A8F0085A3B8 /* TIBLEAliasViewController.h */,
+				A4B168A317248A900085A3B8 /* TIBLEAliasViewController.m */,
+				A4B168A417248A900085A3B8 /* TIBLECopyrightAlertWindow.xib */,
+				A4B168A517248A900085A3B8 /* TIBLEInfoViewController.h */,
+				A4B168A617248A900085A3B8 /* TIBLEInfoViewController.m */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		A4B168A717248A900085A3B8 /* NoSensorAvailable */ = {
+			isa = PBXGroup;
+			children = (
+				A4B168A817248A900085A3B8 /* TIBLENoSensorAvailableViewController.h */,
+				A4B168A917248A900085A3B8 /* TIBLENoSensorAvailableViewController.m */,
+				A4B168AA17248A900085A3B8 /* TIBLENoSensorAvailableViewController.xib */,
+			);
+			path = NoSensorAvailable;
+			sourceTree = "<group>";
+		};
+		A4B168AB17248A900085A3B8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A4B168AC17248A900085A3B8 /* TIBLEFormulaSettingsView.xib */,
+				A4B168AD17248A900085A3B8 /* TIBLEFormulaSettingsViewController.h */,
+				A4B168AE17248A900085A3B8 /* TIBLEFormulaSettingsViewController.m */,
+				A4B168AF17248A900085A3B8 /* TIBLEGraphDisplaySettingsView.xib */,
+				A4B168B017248A900085A3B8 /* TIBLEGraphDisplaySettingsViewController.h */,
+				A4B168B117248A900085A3B8 /* TIBLEGraphDisplaySettingsViewController.m */,
+				A4B168B217248A900085A3B8 /* TIBLESensorSettingsView.xib */,
+				A4B168B317248A900085A3B8 /* TIBLESensorSettingsViewController.h */,
+				A4B168B417248A900085A3B8 /* TIBLESensorSettingsViewController.m */,
+				A4B168B517248A900085A3B8 /* TIBLESettingsViewController.h */,
+				A4B168B617248A900085A3B8 /* TIBLESettingsViewController.m */,
+				A4B168B717248A900085A3B8 /* TIBLESettingsViewController.xib */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A4B97FBD17542B3200E9BDC7 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				A4B97FBE17542B3F00E9BDC7 /* TIBLELogger.h */,
+				A4B97FBF17542B3F00E9BDC7 /* TIBLELogger.m */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		A4D6CA8C1738284300158DA4 /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				A4D6CA8D1738286000158DA4 /* TIBLEAlertWindow.h */,
+				A4D6CA8E1738286000158DA4 /* TIBLEAlertWindow.m */,
+			);
+			path = Windows;
+			sourceTree = "<group>";
+		};
+		A4D6CA9B173AA5EA00158DA4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A4D6CA9C173AA61000158DA4 /* TIBLEActivityPrintProvider.h */,
+				A4D6CA9D173AA61000158DA4 /* TIBLEActivityPrintProvider.m */,
+				A4D6CA9F173AD0F500158DA4 /* TIBLEActivityClipboardProvider.h */,
+				A4D6CAA0173AD0F600158DA4 /* TIBLEActivityClipboardProvider.m */,
+				A4D6CAA2173AD10A00158DA4 /* TIBLEActivityMailProvider.h */,
+				A4D6CAA3173AD10B00158DA4 /* TIBLEActivityMailProvider.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E00BAB00172E9BCF00B56119 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				E00BAB01172E9BCF00B56119 /* TIBLELoadingViewController.h */,
+				E00BAB02172E9BCF00B56119 /* TIBLELoadingViewController.m */,
+				E00BAB03172E9BCF00B56119 /* TIBLELoadingViewController.xib */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		E01D886C16EA7728003CB8A0 = {
+			isa = PBXGroup;
+			children = (
+				98EF06841717463B00E1A5F9 /* tible_icon-72.png */,
+				98EF06821717463700E1A5F9 /* tible_icon-144.png */,
+				98EF06801717462700E1A5F9 /* tible_icon-57.png */,
+				98EF067E1717461C00E1A5F9 /* tible_icon-114.png */,
+				E01D887E16EA7728003CB8A0 /* TIBLE */,
+				E01D888716EA7728003CB8A0 /* TIBLEAppDelegate.h */,
+				E01D888816EA7728003CB8A0 /* TIBLEAppDelegate.m */,
+				A4C8EA5916FA257900F272B2 /* Main_Storyboard_iPhone.storyboard */,
+				A4C8EA5B16FA4AE800F272B2 /* Main_Storyboard_iPad.storyboard */,
+				E01D88A016EA8DA7003CB8A0 /* Settings.bundle */,
+				E01D887716EA7728003CB8A0 /* Frameworks */,
+				E01D887616EA7728003CB8A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E01D887616EA7728003CB8A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E01D887516EA7728003CB8A0 /* TI Gas Sensor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E01D887716EA7728003CB8A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4D6351917344DE5003CB6A9 /* MessageUI.framework */,
+				E00BAAFC172C73A200B56119 /* QuickLook.framework */,
+				A4ABCBF716F775C60075B22C /* QuartzCore.framework */,
+				A458035E16EFCCA20019023A /* CoreBluetooth.framework */,
+				E01D887816EA7728003CB8A0 /* UIKit.framework */,
+				E01D887A16EA7728003CB8A0 /* Foundation.framework */,
+				E01D887C16EA7728003CB8A0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E01D887E16EA7728003CB8A0 /* TIBLE */ = {
+			isa = PBXGroup;
+			children = (
+				A4B97FBD17542B3200E9BDC7 /* Logger */,
+				A4427FED17249FED005C2299 /* ThirdParty */,
+				A4427FE617249FCC005C2299 /* Controller */,
+				A4B167C417248A8F0085A3B8 /* Bluetooth */,
+				A4B167E517248A8F0085A3B8 /* Constants */,
+				A4B1684A17248A8F0085A3B8 /* Model */,
+				A4B1685E17248A8F0085A3B8 /* UI-Components */,
+				A4B1687F17248A8F0085A3B8 /* ViewControllers */,
+				E01D887F16EA7728003CB8A0 /* Supporting Files */,
+				A4C8EA6716FA580600F272B2 /* TIBLERootViewController_iPhone.h */,
+				A4C8EA6816FA580700F272B2 /* TIBLERootViewController_iPhone.m */,
+				A4C8EA6A16FA581500F272B2 /* TIBLERootViewController_iPad.h */,
+				A4C8EA6B16FA581500F272B2 /* TIBLERootViewController_iPad.m */,
+				A4C8EA7116FA5AB900F272B2 /* TIBLERootViewControllerProtocol.h */,
+			);
+			path = TIBLE;
+			sourceTree = "<group>";
+		};
+		E01D887F16EA7728003CB8A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E00BAAFE172C741A00B56119 /* OxygenSensor_Schematic.pdf */,
+				A44280451725881A005C2299 /* Fonts */,
+				E046B80D172190EA00B5AD55 /* en.lproj */,
+				A4ABCBB816F772D20075B22C /* Images */,
+				98EF066E17173F8B00E1A5F9 /* Default-Landscape.png */,
+				98EF066F17173F8B00E1A5F9 /* Default-Landscape@2x.png */,
+				98EF066A17173EE500E1A5F9 /* Default-Portrait.png */,
+				98EF066B17173EE600E1A5F9 /* Default-Portrait@2x.png */,
+				E01D888016EA7728003CB8A0 /* TIBLE-Info.plist */,
+				E01D888116EA7728003CB8A0 /* InfoPlist.strings */,
+				E01D888416EA7728003CB8A0 /* main.m */,
+				A4ABCB4B16F772930075B22C /* TIBLECommonMacros.h */,
+				E01D888616EA7728003CB8A0 /* TIBLE-Prefix.pch */,
+				E01D888A16EA7728003CB8A0 /* Default.png */,
+				E01D888C16EA7728003CB8A0 /* Default@2x.png */,
+				E01D888E16EA7728003CB8A0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E046B80D172190EA00B5AD55 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				E046B80E172190EA00B5AD55 /* InfoPlist.strings */,
+				E046B810172190EA00B5AD55 /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E01D887416EA7728003CB8A0 /* TIBLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E01D889216EA7728003CB8A0 /* Build configuration list for PBXNativeTarget "TIBLE" */;
+			buildPhases = (
+				E01D887116EA7728003CB8A0 /* Sources */,
+				E01D887216EA7728003CB8A0 /* Frameworks */,
+				E01D887316EA7728003CB8A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TIBLE;
+			productName = TIBLE;
+			productReference = E01D887516EA7728003CB8A0 /* TI Gas Sensor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E01D886D16EA7728003CB8A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TIBLE;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Krasamo;
+			};
+			buildConfigurationList = E01D887016EA7728003CB8A0 /* Build configuration list for PBXProject "TIBLE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E01D886C16EA7728003CB8A0;
+			productRefGroup = E01D887616EA7728003CB8A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E01D887416EA7728003CB8A0 /* TIBLE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E01D887316EA7728003CB8A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E01D888316EA7728003CB8A0 /* InfoPlist.strings in Resources */,
+				A4D6351C173705FA003CB6A9 /* TIBLETextFieldCellLarge.xib in Resources */,
+				E01D888B16EA7728003CB8A0 /* Default.png in Resources */,
+				E01D888D16EA7728003CB8A0 /* Default@2x.png in Resources */,
+				E01D888F16EA7728003CB8A0 /* Default-568h@2x.png in Resources */,
+				E01D88A116EA8DA7003CB8A0 /* Settings.bundle in Resources */,
+				A4ABCBDC16F772D20075B22C /* button_background.png in Resources */,
+				A4ABCBDF16F772D20075B22C /* checkmark.png in Resources */,
+				A4ABCBE116F772D20075B22C /* formula.png in Resources */,
+				A4ABCBE316F772D20075B22C /* formula_sticky.png in Resources */,
+				A4ABCBE416F772D20075B22C /* graph_annotation.png in Resources */,
+				A4ABCBE616F772D20075B22C /* graph_sticky.png in Resources */,
+				A4ABCBE716F772D20075B22C /* info_screen.png in Resources */,
+				A4ABCBE816F772D20075B22C /* info_screen~ipad.png in Resources */,
+				A4ABCBE916F772D20075B22C /* message_background.png in Resources */,
+				A4ABCBEC16F772D20075B22C /* sensor_sticky.png in Resources */,
+				A4ABCBF116F772D20075B22C /* tab_bar_graph_icon@2x.png in Resources */,
+				A4ABCBF216F772D20075B22C /* tab_bar_percentage_icon@2x.png in Resources */,
+				A4ABCBF316F772D20075B22C /* tab_bar_sensor_icon@2x.png in Resources */,
+				A4ABCBF416F772D20075B22C /* tab_bar_settings_icon@2x.png in Resources */,
+				A4ABCBF516F772D20075B22C /* tab_bar_wifi_icon@2x.png in Resources */,
+				A4ABCBF616F772D20075B22C /* warning_icon.png in Resources */,
+				A4ABCC0F16F803CA0075B22C /* red_cross.png in Resources */,
+				A4C8EA5A16FA257A00F272B2 /* Main_Storyboard_iPhone.storyboard in Resources */,
+				A4C8EA5C16FA4AE800F272B2 /* Main_Storyboard_iPad.storyboard in Resources */,
+				A4C8EA6216FA56F200F272B2 /* tab_bar_graph_icon.png in Resources */,
+				A4C8EA6316FA56F200F272B2 /* tab_bar_percentage_icon.png in Resources */,
+				A4C8EA6416FA56F200F272B2 /* tab_bar_sensor_icon.png in Resources */,
+				A4C8EA6516FA56F200F272B2 /* tab_bar_settings_icon.png in Resources */,
+				A4C8EA6616FA56F200F272B2 /* tab_bar_wifi_icon.png in Resources */,
+				A4C8EA8116FA834100F272B2 /* popover-black-bottom-arrow-image.png in Resources */,
+				A4C8EA8216FA834100F272B2 /* popover-black-left-arrow-image.png in Resources */,
+				A4C8EA8316FA834100F272B2 /* popover-black-right-arrow-image.png in Resources */,
+				A4C8EA8416FA834100F272B2 /* popover-black-top-arrow-image.png in Resources */,
+				A4C8EA8516FA834100F272B2 /* popover-black-bcg-image.png in Resources */,
+				A4C8EA8616FA834100F272B2 /* popover-black-top-arrow-image@2x.png in Resources */,
+				A4C8EA8716FA834100F272B2 /* popover-black-right-arrow-image@2x.png in Resources */,
+				A4C8EA8816FA834100F272B2 /* popover-black-left-arrow-image@2x.png in Resources */,
+				A4C8EA8916FA834100F272B2 /* popover-black-bottom-arrow-image@2x.png in Resources */,
+				A4C8EA8A16FA834100F272B2 /* popover-black-bcg-image@2x.png in Resources */,
+				E067EEB217033203003BE92A /* background_graph_portrait.png in Resources */,
+				E067EEB317033203003BE92A /* background_sensor_info_portrait.png in Resources */,
+				9854F843170B62AD00FC7647 /* background_graph_portrait@2x.png in Resources */,
+				9854F844170B62AD00FC7647 /* background_sensor_info_portrait@2x.png in Resources */,
+				9854F845170B62AD00FC7647 /* checkmark@2x.png in Resources */,
+				9854F846170B62AD00FC7647 /* formula_sticky@2x.png in Resources */,
+				9854F847170B62AD00FC7647 /* formula@2x.png in Resources */,
+				9854F848170B62AD00FC7647 /* graph_annotation@2x.png in Resources */,
+				9854F849170B62AD00FC7647 /* graph_sticky@2x.png in Resources */,
+				9854F84A170B62AD00FC7647 /* message_background@2x.png in Resources */,
+				9854F84C170B62AD00FC7647 /* red_cross@2x.png in Resources */,
+				9854F84D170B62AD00FC7647 /* sensor_sticky@2x.png in Resources */,
+				9854F852170B675D00FC7647 /* background_graph_title_portrait.png in Resources */,
+				9854F853170B675D00FC7647 /* background_graph_title_portrait@2x.png in Resources */,
+				9854F855170B675D00FC7647 /* button_background@2x.png in Resources */,
+				986B6C48170C9FE3008981CD /* gradient_bg_stretch.png in Resources */,
+				98AE3E71170CD76700D33EC4 /* tab_bar_sensor_icon~ipad.png in Resources */,
+				98B2A137170DE9EA00DD532F /* info_screen@2x~ipad.png in Resources */,
+				98D5F73E170E2640002C8F42 /* progress-bar@2x~ipad.png in Resources */,
+				98D5F73F170E2640002C8F42 /* progress-bar~ipad.png in Resources */,
+				98D5F742170E280F002C8F42 /* progress-bar.png in Resources */,
+				98D5F743170E280F002C8F42 /* progress-bar@2x.png in Resources */,
+				98D5F745170E2DFA002C8F42 /* info_screen@2x.png in Resources */,
+				A47B487E17121FEC009FAF6D /* alert_view_background.png in Resources */,
+				989C2F671713502C0057F728 /* alert_view_background@2x.png in Resources */,
+				987E87981713601B00415BD1 /* alert_button.png in Resources */,
+				987E87991713601B00415BD1 /* alert_button@2x.png in Resources */,
+				9832B301171474CB00AA0F05 /* warning_icon@2x.png in Resources */,
+				A4B668E21715C7ED007483BC /* gradient_bg_stretch@2x.png in Resources */,
+				98DBD15E1715DF9C004F5807 /* alert_view_content_background.png in Resources */,
+				98DBD15F1715DF9C004F5807 /* alert_view_content_background@2x.png in Resources */,
+				98DBD1641715FFC9004F5807 /* pause_button.png in Resources */,
+				98DBD1651715FFC9004F5807 /* pause_button@2x.png in Resources */,
+				98DBD1661715FFC9004F5807 /* play_button.png in Resources */,
+				98DBD1671715FFC9004F5807 /* play_button@2x.png in Resources */,
+				98DBD1691716055D004F5807 /* tab_bar_sensor_icon@2x~ipad.png in Resources */,
+				98DBD16C17161621004F5807 /* krasamo.png in Resources */,
+				98DBD16D17161621004F5807 /* krasamo@2x.png in Resources */,
+				98EF066C17173EE600E1A5F9 /* Default-Portrait.png in Resources */,
+				98EF066D17173EE600E1A5F9 /* Default-Portrait@2x.png in Resources */,
+				98EF067017173F8B00E1A5F9 /* Default-Landscape.png in Resources */,
+				98EF067117173F8B00E1A5F9 /* Default-Landscape@2x.png in Resources */,
+				98EF0678171745CF00E1A5F9 /* tible_icon_appstore-512.png in Resources */,
+				98EF0679171745CF00E1A5F9 /* tible_icon_appstore-1024.png in Resources */,
+				98EF067A171745CF00E1A5F9 /* tible_icon-57.png in Resources */,
+				98EF067B171745CF00E1A5F9 /* tible_icon-72.png in Resources */,
+				98EF067C171745CF00E1A5F9 /* tible_icon-114.png in Resources */,
+				98EF067D171745CF00E1A5F9 /* tible_icon-144.png in Resources */,
+				98EF067F1717461C00E1A5F9 /* tible_icon-114.png in Resources */,
+				98EF06811717462700E1A5F9 /* tible_icon-57.png in Resources */,
+				98EF06831717463700E1A5F9 /* tible_icon-144.png in Resources */,
+				98EF06851717463B00E1A5F9 /* tible_icon-72.png in Resources */,
+				983595FA171CB38500B6CEED /* background_graph_landscape.png in Resources */,
+				983595FB171CB38500B6CEED /* background_graph_landscape@2x.png in Resources */,
+				983595FC171CB38500B6CEED /* background_sensor_info_landscape.png in Resources */,
+				983595FD171CB38500B6CEED /* background_sensor_info_landscape@2x.png in Resources */,
+				983CE1B2171DFA5C0054BBB6 /* refresh_button.png in Resources */,
+				983CE1B3171DFA5C0054BBB6 /* refresh_button@2x.png in Resources */,
+				E046B812172190EA00B5AD55 /* InfoPlist.strings in Resources */,
+				E046B813172190EA00B5AD55 /* Localizable.strings in Resources */,
+				A4B168BF17248A900085A3B8 /* colorPicker.bundle in Resources */,
+				A4B168C217248A900085A3B8 /* NEOColorPickerFavoritesViewController.xib in Resources */,
+				A4B168C517248A900085A3B8 /* NEOColorPickerHSLViewController.xib in Resources */,
+				A4B168C717248A900085A3B8 /* NEOColorPickerHueGridViewController.xib in Resources */,
+				A4B168C917248A900085A3B8 /* NEOColorPickerViewController.xib in Resources */,
+				A4B168CC17248A900085A3B8 /* TIBLESensorConfigurationConstants.plist in Resources */,
+				A4B168CD17248A900085A3B8 /* TIBLESensorProfileConstants.plist in Resources */,
+				A4B168E117248A900085A3B8 /* TIBLEColorCell.xib in Resources */,
+				A4B168E317248A900085A3B8 /* TIBLESelectableCell.xib in Resources */,
+				A4B168E517248A900085A3B8 /* TIBLESelectableSensorCell.xib in Resources */,
+				A4B168E717248A900085A3B8 /* TIBLESwitchCell.xib in Resources */,
+				A4B168E917248A900085A3B8 /* TIBLETextFieldCell.xib in Resources */,
+				A4B168F017248A900085A3B8 /* TIBLEConnectViewController.xib in Resources */,
+				A4B168F517248A900085A3B8 /* TIBLEDashboardViewController_iPhone.xib in Resources */,
+				A4B168F617248A900085A3B8 /* TIBLEMainScreenViewController_iPad-landscape.xib in Resources */,
+				A4B168F817248A900085A3B8 /* TIBLEMainScreenViewController_iPad.xib in Resources */,
+				A4B168FA17248A900085A3B8 /* TIBLEProgressViewController.xib in Resources */,
+				A4B168FB17248A900085A3B8 /* TIBLESensorInfoViewController-landscape.xib in Resources */,
+				A4B168FD17248A900085A3B8 /* TIBLESensorInfoViewController.xib in Resources */,
+				A4B168FE17248A900085A3B8 /* TIBLESensorInfoViewController~iphone.xib in Resources */,
+				A4B168FF17248A900085A3B8 /* TIBLEGraphViewController-landscape.xib in Resources */,
+				A4B1690117248A900085A3B8 /* TIBLEGraphViewController.xib in Resources */,
+				A4B1690217248A900085A3B8 /* TIBLEGraphViewController~iphone.xib in Resources */,
+				A4B1690317248A900085A3B8 /* TIBLEAboutAlertWindow.xib in Resources */,
+				A4B1690417248A900085A3B8 /* TIBLEAliasView.xib in Resources */,
+				A4B1690617248A900085A3B8 /* TIBLECopyrightAlertWindow.xib in Resources */,
+				A4B1690917248A900085A3B8 /* TIBLENoSensorAvailableViewController.xib in Resources */,
+				A4B1690A17248A900085A3B8 /* TIBLEFormulaSettingsView.xib in Resources */,
+				A4B1690C17248A900085A3B8 /* TIBLEGraphDisplaySettingsView.xib in Resources */,
+				A4B1690E17248A900085A3B8 /* TIBLESensorSettingsView.xib in Resources */,
+				A4B1691117248A900085A3B8 /* TIBLESettingsViewController.xib in Resources */,
+				A44280471725881A005C2299 /* Avenir.ttc in Resources */,
+				E00BAAFF172C741A00B56119 /* OxygenSensor_Schematic.pdf in Resources */,
+				E00BAB05172E9BCF00B56119 /* TIBLELoadingViewController.xib in Resources */,
+				A4A70B4F173076BC00F497E6 /* TIBLEDevicesListAlertWindow~iphone.xib in Resources */,
+				A4A70B51173076BC00F497E6 /* TIBLEDevicesListAlertWindow.xib in Resources */,
+				9836EAB41731B9E2000757B2 /* progress-bar-landscape~ipad.png in Resources */,
+				9836EAB51731B9E2000757B2 /* progress-bar-portrait~ipad.png in Resources */,
+				9836EAB61731B9E2000757B2 /* progress-bar@2x-landscape~ipad.png in Resources */,
+				9836EAB71731B9E2000757B2 /* progress-bar@2x-portrait~ipad.png in Resources */,
+				98808BEF17345BD600E68ED4 /* ti.png in Resources */,
+				98808BF017345BD600E68ED4 /* ti@2x.png in Resources */,
+				A4B97FC9175642EA00E9BDC7 /* TIBLEProgressViewController-landscape.xib in Resources */,
+				A4B97FCA175642EA00E9BDC7 /* TIBLEProgressViewController~iphone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E01D887116EA7728003CB8A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E01D888516EA7728003CB8A0 /* main.m in Sources */,
+				E01D888916EA7728003CB8A0 /* TIBLEAppDelegate.m in Sources */,
+				A4C8EA6916FA580700F272B2 /* TIBLERootViewController_iPhone.m in Sources */,
+				A4C8EA6C16FA581600F272B2 /* TIBLERootViewController_iPad.m in Sources */,
+				A4B168B917248A900085A3B8 /* CBUUID+StringExtraction.m in Sources */,
+				A4B168BA17248A900085A3B8 /* TIBLECharacteristics.m in Sources */,
+				A4B168BB17248A900085A3B8 /* TIBLEDiscovery.m in Sources */,
+				A4B168BC17248A900085A3B8 /* TIBLEPeripheral.m in Sources */,
+				A4B168BD17248A900085A3B8 /* TIBLEService.m in Sources */,
+				A4B168BE17248A900085A3B8 /* TIBLEUtilities.m in Sources */,
+				A4B168C017248A900085A3B8 /* NEOColorPickerBaseViewController.m in Sources */,
+				A4B168C117248A900085A3B8 /* NEOColorPickerFavoritesViewController.m in Sources */,
+				A4B168C317248A900085A3B8 /* NEOColorPickerGradientView.m in Sources */,
+				A4B168C417248A900085A3B8 /* NEOColorPickerHSLViewController.m in Sources */,
+				A4B168C617248A900085A3B8 /* NEOColorPickerHueGridViewController.m in Sources */,
+				A4B168C817248A900085A3B8 /* NEOColorPickerViewController.m in Sources */,
+				A4B168CA17248A900085A3B8 /* UIColor+NEOColor.m in Sources */,
+				A4B168CB17248A900085A3B8 /* TIBLECharacteristicsSingleton.m in Sources */,
+				A4B168D517248A900085A3B8 /* TIBLERawDataModel.m in Sources */,
+				A4B168D617248A900085A3B8 /* TIBLESampleModel.m in Sources */,
+				A4B168D717248A900085A3B8 /* TIBLESampleQueue.m in Sources */,
+				A4B168D817248A900085A3B8 /* TIBLESavedSensor.m in Sources */,
+				A4B168D917248A900085A3B8 /* TIBLESensorMath.m in Sources */,
+				A4B168DA17248A900085A3B8 /* TIBLESensorModel.m in Sources */,
+				A4B168DB17248A900085A3B8 /* TIBLESensorProfile.m in Sources */,
+				A4B168DE17248A900085A3B8 /* UIColor+LightAndDark.m in Sources */,
+				A4B168DF17248A900085A3B8 /* UIImageView+GeometryConversion.m in Sources */,
+				A4B168E017248A900085A3B8 /* TIBLEColorCell.m in Sources */,
+				A4B168E217248A900085A3B8 /* TIBLESelectableCell.m in Sources */,
+				A4B168E417248A900085A3B8 /* TIBLESelectableSensorCell.m in Sources */,
+				A4B168E617248A900085A3B8 /* TIBLESwitchCell.m in Sources */,
+				A4B168E817248A900085A3B8 /* TIBLETextFieldCell.m in Sources */,
+				A4B168EA17248A900085A3B8 /* KSCustomPopoverBackgroundView.m in Sources */,
+				A4B168EB17248A900085A3B8 /* TIBLECheckmark.m in Sources */,
+				A4B168EC17248A900085A3B8 /* TIBLEHeaderView.m in Sources */,
+				A4B168ED17248A900085A3B8 /* TIBLEProgressView.m in Sources */,
+				A4B168EE17248A900085A3B8 /* TIBLEStretchableImageView.m in Sources */,
+				A4B168EF17248A900085A3B8 /* TIBLEConnectViewController.m in Sources */,
+				A4B168F117248A900085A3B8 /* TIBLEDeviceListPickerManager.m in Sources */,
+				A4B168F217248A900085A3B8 /* TIBLEDeviceListPickerTableViewController.m in Sources */,
+				A4B168F417248A900085A3B8 /* TIBLEDashboardViewController_iPhone.m in Sources */,
+				A4B168F717248A900085A3B8 /* TIBLEMainScreenViewController_iPad.m in Sources */,
+				A4B168F917248A900085A3B8 /* TIBLEProgressViewController.m in Sources */,
+				A4B168FC17248A900085A3B8 /* TIBLESensorInfoViewController.m in Sources */,
+				A4B1690017248A900085A3B8 /* TIBLEGraphViewController.m in Sources */,
+				A4B1690517248A900085A3B8 /* TIBLEAliasViewController.m in Sources */,
+				A4B1690717248A900085A3B8 /* TIBLEInfoViewController.m in Sources */,
+				A4B1690817248A900085A3B8 /* TIBLENoSensorAvailableViewController.m in Sources */,
+				A4B1690B17248A900085A3B8 /* TIBLEFormulaSettingsViewController.m in Sources */,
+				A4B1690D17248A900085A3B8 /* TIBLEGraphDisplaySettingsViewController.m in Sources */,
+				A4B1690F17248A900085A3B8 /* TIBLESensorSettingsViewController.m in Sources */,
+				A4B1691017248A900085A3B8 /* TIBLESettingsViewController.m in Sources */,
+				A4427FEB17249FCC005C2299 /* TIBLEDevicesManager.m in Sources */,
+				A4427FEC17249FCC005C2299 /* TIBLESettingsManager.m in Sources */,
+				A442804A17259490005C2299 /* TIBLEAlertManager.m in Sources */,
+				A4A47D19172786A100841729 /* TIBLEScatterPlotViewController.m in Sources */,
+				A46E64361729D73800C6C21E /* TIBLERawSampleModel.m in Sources */,
+				E00BAB04172E9BCF00B56119 /* TIBLELoadingViewController.m in Sources */,
+				A4A70B4B1730623100F497E6 /* TIBLEClearBackgroundView.m in Sources */,
+				E0441D5317340D1000487671 /* TIBLETextFieldCellLarge.m in Sources */,
+				A4D6CA8F1738286000158DA4 /* TIBLEAlertWindow.m in Sources */,
+				A4D6CA96173868FB00158DA4 /* TIBLEPlotConstants.m in Sources */,
+				A4D6CA9E173AA61000158DA4 /* TIBLEActivityPrintProvider.m in Sources */,
+				A4D6CAA1173AD0F600158DA4 /* TIBLEActivityClipboardProvider.m in Sources */,
+				A4D6CAA4173AD10B00158DA4 /* TIBLEActivityMailProvider.m in Sources */,
+				A4D6CAA7173ADAAD00158DA4 /* TIBLEScatterPlotViewController+Export.m in Sources */,
+				A4D6CAAA173ADB7100158DA4 /* TIBLEScatterPlotViewController+Annotation.m in Sources */,
+				A4D6CAAD173ADBF800158DA4 /* TIBLEScatterPlotViewController+DataSource.m in Sources */,
+				A4D6CAB0173ADC0700158DA4 /* TIBLEScatterPlotViewController+PlotSpace.m in Sources */,
+				A4D6CAB3173ADD6800158DA4 /* TIBLEScatterPlotViewController+RealTimeRefresh.m in Sources */,
+				A4D6CAB6173AE25100158DA4 /* TIBLEScatterPlotViewController+Range.m in Sources */,
+				A446F026174C08AD00E7100B /* TIBLEScatterPlotViewController+Utils.m in Sources */,
+				A4B97FBB1754017E00E9BDC7 /* TIBLEInputValidator.m in Sources */,
+				A4B97FC017542B3F00E9BDC7 /* TIBLELogger.m in Sources */,
+				A4B97FC6175585B500E9BDC7 /* UIImage+Resizable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E01D888116EA7728003CB8A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E01D888216EA7728003CB8A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E046B80E172190EA00B5AD55 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E046B80F172190EA00B5AD55 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E046B810172190EA00B5AD55 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E046B811172190EA00B5AD55 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A474E99F1721C6A10060EE97 /* In-House Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "In-House Distribution";
+		};
+		A474E9A01721C6A10060EE97 /* In-House Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: KRASAMO LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: KRASAMO LLC";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TIBLE/TIBLE-Prefix.pch";
+				INFOPLIST_FILE = "TIBLE/TIBLE-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TIBLE/CorePlot/lib\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "TI Gas Sensor";
+				PROVISIONING_PROFILE = "6D9EE348-6A8E-432E-A572-57C75D9F99B6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6D9EE348-6A8E-432E-A572-57C75D9F99B6";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "In-House Distribution";
+		};
+		E01D889016EA7728003CB8A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E01D889116EA7728003CB8A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E01D889316EA7728003CB8A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TIBLE/TIBLE-Prefix.pch";
+				INFOPLIST_FILE = "TIBLE/TIBLE-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TIBLE/CorePlot/lib\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "TI Gas Sensor";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E01D889416EA7728003CB8A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Texas Instruments";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Texas Instruments";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TIBLE/TIBLE-Prefix.pch";
+				INFOPLIST_FILE = "TIBLE/TIBLE-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TIBLE/CorePlot/lib\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "TI Gas Sensor";
+				PROVISIONING_PROFILE = "DE5FB81F-CE77-46B4-8DDA-CEBF538B3EE4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DE5FB81F-CE77-46B4-8DDA-CEBF538B3EE4";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E01D887016EA7728003CB8A0 /* Build configuration list for PBXProject "TIBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E01D889016EA7728003CB8A0 /* Debug */,
+				E01D889116EA7728003CB8A0 /* Release */,
+				A474E99F1721C6A10060EE97 /* In-House Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E01D889216EA7728003CB8A0 /* Build configuration list for PBXNativeTarget "TIBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E01D889316EA7728003CB8A0 /* Debug */,
+				E01D889416EA7728003CB8A0 /* Release */,
+				A474E9A01721C6A10060EE97 /* In-House Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E01D886D16EA7728003CB8A0 /* Project object */;
+}

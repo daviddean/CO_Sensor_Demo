@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>2DA7</key>
+	<string>Sensor_Command_Characteristic</string>
+	<key>2DA8</key>
+	<string>Sensor_Denom_0_Characteristic</string>
+	<key>2DA9</key>
+	<string>Sensor_Num_0_Characteristic</string>
+	<key>2DAA</key>
+	<string>Sensor_Sub_X_0_Characteristic</string>
+	<key>2DAB</key>
+	<string>Sensor_Denom_1_Characteristic</string>
+	<key>2DAC</key>
+	<string>Sensor_Graph_Title_Characteristic</string>
+	<key>2DAD</key>
+	<string>Sensor_Graph_SubTitle_Characteristic</string>
+	<key>2DAE</key>
+	<string>Sensor_Graph_X_Axis_Caption_Characteristic</string>
+	<key>2DAF</key>
+	<string>Sensor_Graph_Y_Axis_Caption_Characteristic</string>
+	<key>2DB0</key>
+	<string>Sensor_Graph_Y_Axis_Display_Min_Characteristic</string>
+	<key>2DB1</key>
+	<string>Sensor_Graph_Y_Axis_Display_Max_Characteristic</string>
+	<key>2DB2</key>
+	<string>Sensor_Graph_Color_Top_Mid_Boundary_Characteristic</string>
+	<key>2DB3</key>
+	<string>Sensor_Graph_Color_Mid_Low_Boundary_Characteristic</string>
+	<key>2DB4</key>
+	<string>Sensor_Graph_Color_Top_Value_Characteristic</string>
+	<key>2DB5</key>
+	<string>Sensor_Graph_Color_Mid_Value_Characteristic</string>
+	<key>2DB6</key>
+	<string>Sensor_Graph_Color_Low_Value_Characteristic</string>
+	<key>2DB7</key>
+	<string>Sensor_Calibration_Value_Characteristic</string>
+	<key>2DB8</key>
+	<string>Sensor_Type_Characteristic</string>
+	<key>2DB9</key>
+	<string>Sensor_Graph_Display_Current_Value_Characteristic</string>
+	<key>2DBA</key>
+	<string>Sensor_Graph_Log_Scale_Characteristic</string>
+	<key>2DBB</key>
+	<string>Sensor_Config_Op_Mode_Characteristic</string>
+	<key>2DBC</key>
+	<string>Sensor_Config_TIA_Gain_Characteristic</string>
+	<key>2DBD</key>
+	<string>Sensor_Config_R_Load_Characteristic</string>
+	<key>2DBE</key>
+	<string>Sensor_Config_Internal_Zero_Characteristic</string>
+	<key>2DBF</key>
+	<string>Sensor_Config_Reference_Voltage_Source_Characteristic</string>
+	<key>2E00</key>
+	<string>Sensor_Short_Caption_Characteristic</string>
+	<key>2E01</key>
+	<string>Sensor_Scaling_Factor_Num_Characteristic</string>
+	<key>2E02</key>
+	<string>Sensor_Scaling_Factor_Denom_Characteristic</string>
+</dict>
+</plist>

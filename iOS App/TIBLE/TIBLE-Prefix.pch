@@ -1,0 +1,33 @@
+/*
+ *  TIBLE-Prefix.pch
+ *  TI BLE Sensor App
+ *  05/05/13
+ *
+ *  Copyright (c) 2013 Texas Instruments. All rights reserved.
+ *  Created under contract for TI by Krasamo LLC (info@krasamo.com).
+ *
+ */
+
+// Prefix header for all source files of the 'TIBLE' target in the 'TIBLE' project
+
+#import <Availability.h>
+#import "TIBLECommonMacros.h"
+#import "TIBLELogger.h"
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#define SuppressPerformSelectorLeakWarning(Stuff) \
+do { \
+_Pragma("clang diagnostic push") \
+_Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"") \
+Stuff; \
+_Pragma("clang diagnostic pop") \
+} while (0)
+

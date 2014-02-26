@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="h8P-e7-Coy">
+    <dependencies>
+        <deployment version="1552" identifier="iOS"/>
+        <development version="4600" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Root View Controller i Pad - TIRoot-->
+        <scene sceneID="2cG-hp-OOa">
+            <objects>
+                <viewController title="TIRoot" wantsFullScreenLayout="YES" id="h8P-e7-Coy" customClass="TIBLERootViewController_iPad" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="utj-Ea-z3K">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackOpaque" id="S4k-cd-Spr">
+                                <rect key="frame" x="0.0" y="16" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <barButtonItem image="tab_bar_wifi_icon.png" width="45" style="plain" id="wgR-xi-DrP">
+                                        <connections>
+                                            <action selector="showConnect:" destination="h8P-e7-Coy" id="BQc-S9-dGe"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem tag="500" image="tab_bar_settings_icon.png" width="45" style="plain" id="54l-Ub-rat">
+                                        <connections>
+                                            <action selector="showSettings:" destination="h8P-e7-Coy" id="AXE-9e-V42"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="u44-Qc-qGt"/>
+                                    <barButtonItem title="TI Gas Sensor" style="plain" id="CLb-zK-sdD"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="tFc-pD-cPF"/>
+                                    <barButtonItem style="plain" systemItem="action" id="uPM-XP-gu3">
+                                        <connections>
+                                            <action selector="showShare:" destination="h8P-e7-Coy" id="UEg-DR-Lqb"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" id="SqT-CT-ur9">
+                                        <button key="customView" opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="CKW-Mo-fkx">
+                                            <rect key="frame" x="726" y="7" width="30" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                            <state key="normal" backgroundImage="tab_bar_sensor_icon~ipad.png">
+                                                <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <state key="highlighted">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="infoButtonClicked:" destination="h8P-e7-Coy" eventType="touchUpInside" id="qts-x8-2cA"/>
+                                                <segue destination="19H-cz-zWg" kind="modal" modalPresentationStyle="fullScreen" id="oli-nD-5vv"/>
+                                            </connections>
+                                        </button>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <view contentMode="scaleToFill" id="zyp-KG-QWL">
+                                <rect key="frame" x="0.0" y="69" width="768" height="924"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <splitViewDetailSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="connectBarButtonItem" destination="wgR-xi-DrP" id="247-pu-DSD"/>
+                        <outlet property="infoBarButtonItem" destination="SqT-CT-ur9" id="cvD-on-762"/>
+                        <outlet property="mainScreenView" destination="zyp-KG-QWL" id="TOr-72-wxK"/>
+                        <outlet property="settingsBarButtonItem" destination="54l-Ub-rat" id="uxB-l5-7Zj"/>
+                        <outlet property="shareBarButtonItem" destination="uPM-XP-gu3" id="Y2I-nx-4v2"/>
+                        <outlet property="toolbar" destination="S4k-cd-Spr" id="5Mh-4n-2YF"/>
+                        <outlet property="view" destination="utj-Ea-z3K" id="lKS-z7-a88"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G3v-c6-Cab" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="71" y="-2646"/>
+        </scene>
+        <!--Navigation Controller - Info-->
+        <scene sceneID="neY-Zs-3eF">
+            <objects>
+                <navigationController title="Info" definesPresentationContext="YES" id="19H-cz-zWg" sceneMemberID="viewController">
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackTranslucent"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackOpaque" id="xfX-IU-fJZ">
+                        <rect key="frame" x="0.0" y="-44" width="0.0" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="YAI-V5-9Z3" kind="relationship" relationship="rootViewController" id="FbQ-U7-xc7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EhH-ZZ-Nbh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1046" y="-2657"/>
+        </scene>
+        <!--Info View Controller - Info-->
+        <scene sceneID="81e-Hn-cFr">
+            <objects>
+                <viewController title="Info" id="YAI-V5-9Z3" customClass="TIBLEInfoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GRZ-cA-G7q">
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="info_screen~ipad.png" id="MJg-dz-7Yr">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="960"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="1do-Du-r6M">
+                                <rect key="frame" x="581" y="20" width="167" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                                <state key="normal" title="TI Solutions" backgroundImage="button_background.png">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showSchematic:" destination="YAI-V5-9Z3" eventType="touchUpInside" id="fTE-T0-9AY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="S0K-Iy-QhV">
+                                <rect key="frame" x="581" y="78" width="167" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                                <state key="normal" title="Schematic" backgroundImage="button_background.png">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showSchematicPDF:" destination="YAI-V5-9Z3" eventType="touchUpInside" id="iyq-vM-Ett"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RAC-XV-uc9">
+                                <rect key="frame" x="606" y="905" width="150" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="Copyrights"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
+                                <state key="normal" title="Copyrights">
+                                    <color key="titleColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showAlert:" destination="YAI-V5-9Z3" eventType="touchUpInside" id="UK6-cE-P5O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" id="ptH-Iv-x37">
+                                <rect key="frame" x="606" y="853" width="150" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="About"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
+                                <state key="normal" title="About">
+                                    <color key="titleColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showAlert:" destination="YAI-V5-9Z3" eventType="touchUpInside" id="DEB-88-J7E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hBl-3g-P5c">
+                                <rect key="frame" x="57" y="66" width="357" height="337"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showSchematic:" destination="YAI-V5-9Z3" eventType="touchUpInside" id="E6p-A0-Atq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="tyg-6T-hp2">
+                                <rect key="frame" x="417" y="382" width="314" height="311"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showSchematic:" destination="YAI-V5-9Z3" eventType="touchUpInside" id="aom-QJ-xwp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="AYZ-r5-FG6">
+                                <rect key="frame" x="57" y="634" width="338" height="315"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showSchematic:" destination="YAI-V5-9Z3" eventType="touchUpInside" id="Uil-Qg-WkR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="TI Gas Sensor Info" id="o4D-au-yvO">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="BXg-FP-MJO">
+                            <color key="tintColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="dismissInfoScreen:" destination="YAI-V5-9Z3" id="cD9-Oq-oja"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="analogButton" destination="tyg-6T-hp2" id="gmm-i4-vbg"/>
+                        <outlet property="powerButton" destination="hBl-3g-P5c" id="YmZ-Hw-HlN"/>
+                        <outlet property="processingButton" destination="AYZ-r5-FG6" id="ayp-FM-pGd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ejx-c1-QHU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1911" y="-2660"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="button_background.png" width="90" height="30"/>
+        <image name="info_screen~ipad.png" width="768" height="1024"/>
+        <image name="tab_bar_sensor_icon~ipad.png" width="30" height="30"/>
+        <image name="tab_bar_settings_icon.png" width="30" height="30"/>
+        <image name="tab_bar_wifi_icon.png" width="30" height="30"/>
+    </resources>
+    <classes>
+        <class className="TIBLEAlertWindow" superclassName="UIWindow">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TIBLEAlertWindow.h"/>
+        </class>
+        <class className="TIBLEInfoViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TIBLEInfoViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="dismissAlertWindow:"/>
+                <relationship kind="action" name="dismissInfoScreen:"/>
+                <relationship kind="action" name="showAlert:"/>
+                <relationship kind="action" name="showSchematic:"/>
+                <relationship kind="action" name="showSchematicPDF:"/>
+                <relationship kind="outlet" name="aboutTextView" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="alertWindow" candidateClass="TIBLEAlertWindow"/>
+                <relationship kind="outlet" name="analogButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="copyrightTextView" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="powerButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="processingButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="stretchableAlertBackgroundImageView" candidateClass="TIBLEStretchableImageView"/>
+                <relationship kind="outlet" name="stretchableAlertContentBackgroundImageView" candidateClass="TIBLEStretchableImageView"/>
+            </relationships>
+        </class>
+        <class className="TIBLERootViewController_iPad" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TIBLERootViewController_iPad.h"/>
+            <relationships>
+                <relationship kind="action" name="showSettings:"/>
+                <relationship kind="action" name="showShare:"/>
+                <relationship kind="outlet" name="connectBarButtonItem" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="infoBarButtonItem" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="mainScreenView" candidateClass="UIView"/>
+                <relationship kind="outlet" name="settingsBarButtonItem" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="shareBarButtonItem" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="toolbar" candidateClass="UIToolbar"/>
+            </relationships>
+        </class>
+        <class className="TIBLEStretchableImageView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TIBLEStretchableImageView.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

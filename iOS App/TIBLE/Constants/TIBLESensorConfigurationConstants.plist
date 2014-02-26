@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>Operation Mode</string>
+		<key>Characteristic</key>
+		<string>2DBB</string>
+		<key>Rows</key>
+		<array>
+			<string>Deep Sleep</string>
+			<string>2 Lead</string>
+			<string>Standby</string>
+			<string>3  Lead</string>
+			<string>Temp. Meas. TIA Off</string>
+			<string>Temp. Meas. TIA On</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>TIA Feedback Gain</string>
+		<key>Characteristic</key>
+		<string>2DBC</string>
+		<key>Rows</key>
+		<array>
+			<string>Ext. Resist</string>
+			<string>2 - 75 KOhm</string>
+			<string>3 - 5 KOhm</string>
+			<string>7 KOhm</string>
+			<string>14 KOhm</string>
+			<string>35 KOhm</string>
+			<string>120 KOhm</string>
+			<string>350 KOhm</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>R Load</string>
+		<key>Characteristic</key>
+		<string>2DBD</string>
+		<key>Rows</key>
+		<array>
+			<string>10 OHM</string>
+			<string>30 OHM</string>
+			<string>50 OHM</string>
+			<string>100 OHM</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Internal Zero</string>
+		<key>Characteristic</key>
+		<string>2DBE</string>
+		<key>Rows</key>
+		<array>
+			<string>20 %</string>
+			<string>50 %</string>
+			<string>67 %</string>
+			<string>Bypass</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Voltage Source</string>
+		<key>Characteristic</key>
+		<string>2DBF</string>
+		<key>Rows</key>
+		<array>
+			<string>Internal</string>
+			<string>External</string>
+		</array>
+	</dict>
+</array>
+</plist>
