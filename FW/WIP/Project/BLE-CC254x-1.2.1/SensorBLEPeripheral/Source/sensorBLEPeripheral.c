@@ -157,7 +157,7 @@ static uint8 scanData[] =
   // Complete name
   0x14,   // length of this data
   GAP_ADTYPE_LOCAL_NAME_COMPLETE,
-  0x53,   // 'S'
+  0x53,   // 's'
   0x65,   // 'e'
   0x6e,   // 'n'
   0x73,   // 's'
@@ -387,6 +387,9 @@ void sensBLEPeripheral_Init( uint8 task_id )
     
     value8 = SENS_REF_SOURCE;
     sens_SetParameter( SENS_REF_VOLTAGE_SOURCE_PARAM, sizeof ( uint8 ), (void *)&value8 );
+
+    value8 = NUSOCKET_LIGHT_ON;
+    sens_SetParameter( NUSOCKET_LIGHT_ON_PARAM, sizeof ( uint8 ), (void *)&value8 );
   }
 
   // Setup Battery Characteristic Values
@@ -445,11 +448,10 @@ void sensBLEPeripheral_Init( uint8 task_id )
   osal_set_event( sensBLEPeripheral_TaskID, START_DEVICE_EVT );
   
   /* Init I2C portion of the HAL */
-  HalI2CInit(i2cClock_33KHZ); // Was i2cClock_123KHZ, using slower rate for stability (for now)
+  HalI2CInit(i2cClock_33KHZ);   // Was i2cClock_123KHZ, using slower rate for stability (for now)
    
-  // Set the MENB pin (P1_1) as an output, and drive low
-  P1DIR = P1DIR | 0x02; 
-  P1 = P1&0xFD;
+  // Set the light control I/O (LightOn=1 =>  P1_1=0)
+  nuSOCKET_updateLight();
   
   // Also, set P1_0 (the LED) as an output, and drive low  
   P1DIR = P1DIR | 0x01; 
@@ -878,6 +880,29 @@ void updateSensorData (uint16 time, uint16 tempval, uint16 sensorval,uint16 CC25
 #endif    
    
 } // end updateSensorData()
+
+/*********************************************************************
+ * @fn      nuSOCKET_updateLight()
+ *
+ * @brief   Read light characteristic and update the light accordingly
+ *
+ * @return  none
+ */
+void nuSOCKET_updateLight()
+{
+  uint8 lightOn;
+  
+  get_nuSOCKET_LightSettings(&lightOn); // read the light control characteristic from the BLE Service
+  
+  P1DIR = P1DIR | 0x02;            // P1_1 set to output
+  if(lightOn)
+    P1 = P1|0x02;                  // P1_1 set to high (light OFF)
+  else
+    P1 = P1&0xFD;                  // P1_1 set to low (light ON)
+
+  
+} // end nuSOCKET_updateLight()
+
 
 /*********************************************************************
 *********************************************************************/

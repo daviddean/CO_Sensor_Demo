@@ -101,6 +101,8 @@ extern void updateSensorData (uint16 time, uint16 temp, uint16 sensorval);
 #else
 extern void updateSensorData (uint16 time, uint16 temp, uint16 sensorval,uint16 CC2541tempval,uint16 vdd,uint16 spare);
 #endif
+extern void nuSOCKET_updateLight();
+
 
 #ifdef __cplusplus
 }

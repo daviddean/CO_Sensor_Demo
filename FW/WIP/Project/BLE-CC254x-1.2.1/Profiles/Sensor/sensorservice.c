@@ -213,6 +213,12 @@ CONST uint8 sensRefVoltSourceUUID[ATT_BT_UUID_SIZE] =
   LO_UINT16(SENS_REF_VOLTAGE_SOURCE_UUID), HI_UINT16(SENS_REF_VOLTAGE_SOURCE_UUID)
 };
 
+// nuSOCKET Light Control characteristic
+CONST uint8 nuSOCKET_LightOnUUID[ATT_BT_UUID_SIZE] =
+{ 
+  LO_UINT16(NUSOCKET_LIGHT_ON_UUID), HI_UINT16(NUSOCKET_LIGHT_ON_UUID)
+};
+
 // Short Caption characteristic
 CONST uint8 sensShortCaptionUUID[ATT_BT_UUID_SIZE] =
 { 
@@ -230,7 +236,6 @@ CONST uint8 sensScaleFactorDenomUUID[ATT_BT_UUID_SIZE] =
 { 
   LO_UINT16(SENS_SCALE_FACTOR_DENOM_UUID), HI_UINT16(SENS_SCALE_FACTOR_DENOM_UUID)
 };
-
 
 /*********************************************************************
  * EXTERNAL VARIABLES
@@ -377,6 +382,11 @@ static uint8 sens_IntZSelUserDesp[52] = "LMP91000 Internal Zero Selection Settin
 static uint8 sensRefVoltageSourceProps = GATT_PROP_READ | GATT_PROP_WRITE;
 uint8 sensRefVoltageSource = SENS_REF_SOURCE;
 static uint8 sens_RefVoltageSourceUserDesp[53] = "LMP91000 Reference Voltage Source Setting for Sensor\0";
+
+// nuSOCKET Light Control 
+static uint8 nuSOCKET_LightOnProps = GATT_PROP_READ | GATT_PROP_WRITE;
+uint8 nuSOCKET_LightOn = NUSOCKET_LIGHT_ON;
+static uint8 nuSOCKET_LightOnUserDesp[23] = "nuSOCKET Light Control\0";
 
 // Short Caption 
 static uint8 sens_Short_Caption_Props = GATT_PROP_READ;
@@ -1019,9 +1029,33 @@ static gattAttribute_t sensAttrTbl[] =
       0, 
       sens_RefVoltageSourceUserDesp 
     },
+//-------------------  
+    // nuSOCKET Light Control Properties - Characteristic 26
+    { 
+      { ATT_BT_UUID_SIZE, characterUUID },
+      GATT_PERMIT_READ, 
+      0,
+      &nuSOCKET_LightOnProps 
+    },
+
+    // nuSOCKET Light Control - Characteristic 26
+    { 
+      { ATT_BT_UUID_SIZE, nuSOCKET_LightOnUUID },
+      GATT_PERMIT_READ | GATT_PERMIT_WRITE, 
+      0, 
+      &nuSOCKET_LightOn 
+    },
+
+    // nuSOCKET Light Control User Description - Characteristic 26
+    { 
+      { ATT_BT_UUID_SIZE, charUserDescUUID },
+      GATT_PERMIT_READ, 
+      0, 
+      nuSOCKET_LightOnUserDesp 
+    },  
 
 //-------------------    
-    // Sensor Short Caption Properties - Characteristic 26
+    // Sensor Short Caption Properties - Characteristic 27
     { 
       { ATT_BT_UUID_SIZE, characterUUID },
       GATT_PERMIT_READ, 
@@ -1029,7 +1063,7 @@ static gattAttribute_t sensAttrTbl[] =
       &sens_Short_Caption_Props 
     },
 
-    // Sensor Short Caption Display Value - Characteristic 26
+    // Sensor Short Caption Display Value - Characteristic 27
     { 
       { ATT_BT_UUID_SIZE, sensShortCaptionUUID },
       GATT_PERMIT_READ, 
@@ -1037,7 +1071,7 @@ static gattAttribute_t sensAttrTbl[] =
       sens_Short_CaptionUserDesp 
     },
 
-    // Sensor Short Caption User Description - Characteristic 26
+    // Sensor Short Caption User Description - Characteristic 27
     { 
       { ATT_BT_UUID_SIZE, charUserDescUUID },
       GATT_PERMIT_READ, 
@@ -1045,7 +1079,7 @@ static gattAttribute_t sensAttrTbl[] =
       sens_Short_CaptionUserDesp 
     },  
 //-------------------    
-    // Sensor Scale Factor Numerator Properties - Characteristic 27
+    // Sensor Scale Factor Numerator Properties - Characteristic 28
     { 
       { ATT_BT_UUID_SIZE, characterUUID },
       GATT_PERMIT_READ, 
@@ -1053,7 +1087,7 @@ static gattAttribute_t sensAttrTbl[] =
       &sens_Scale_Factor_Num_Props 
     },
 
-    // Sensor Scale Factor Numerator Value - Characteristic 27
+    // Sensor Scale Factor Numerator Value - Characteristic 28
     { 
       { ATT_BT_UUID_SIZE, sensScaleFactorNumUUID },
       GATT_PERMIT_READ, 
@@ -1061,7 +1095,7 @@ static gattAttribute_t sensAttrTbl[] =
       (uint8 *)&sens_Scale_Factor_Num 
     },
 
-    // Sensor Scale Factor Numerator User Description - Characteristic 27
+    // Sensor Scale Factor Numerator User Description - Characteristic 28
     { 
       { ATT_BT_UUID_SIZE, charUserDescUUID },
       GATT_PERMIT_READ, 
@@ -1069,7 +1103,7 @@ static gattAttribute_t sensAttrTbl[] =
       sens_Scale_Factor_NumUserDesp 
     },  
 //-------------------    
-    // Sensor Scale Factor Denominator Properties - Characteristic 28
+    // Sensor Scale Factor Denominator Properties - Characteristic 29
     { 
       { ATT_BT_UUID_SIZE, characterUUID },
       GATT_PERMIT_READ, 
@@ -1077,7 +1111,7 @@ static gattAttribute_t sensAttrTbl[] =
       &sens_Scale_Factor_Denom_Props 
     },
 
-    // Sensor Scale Factor Denominator Value - Characteristic 28
+    // Sensor Scale Factor Denominator Value - Characteristic 29
     { 
       { ATT_BT_UUID_SIZE, sensScaleFactorDenomUUID },
       GATT_PERMIT_READ, 
@@ -1085,7 +1119,7 @@ static gattAttribute_t sensAttrTbl[] =
       (uint8 *)&sens_Scale_Factor_Denom 
     },
 
-    // Sensor Scale Factor Denominator User Description - Characteristic 28
+    // Sensor Scale Factor Denominator User Description - Characteristic 29
     { 
       { ATT_BT_UUID_SIZE, charUserDescUUID },
       GATT_PERMIT_READ, 
@@ -1261,6 +1295,10 @@ bStatus_t sens_SetParameter( uint8 param, uint8 len, void *value )
       sensRefVoltageSource = *(uint8 *)value;
       break;
 
+    case NUSOCKET_LIGHT_ON_PARAM:
+      nuSOCKET_LightOn = *(uint8 *)value;
+      break;  
+  
     case SENS_SCALE_FACTOR_NUM_PARAM:  
       sens_Scale_Factor_Num = *(uint32 *)value;
       break;
@@ -1376,6 +1414,10 @@ bStatus_t sens_GetParameter( uint8 param, void *value )
       *(uint8 *)value = sensRefVoltageSource;
       break;
 
+    case NUSOCKET_LIGHT_ON_PARAM:
+      *(uint8 *)value = nuSOCKET_LightOn;
+      break;
+      
     case SENS_SCALE_FACTOR_NUM_PARAM:  
       *(int32 *)value = sens_Scale_Factor_Num;
       break;
@@ -1383,7 +1425,7 @@ bStatus_t sens_GetParameter( uint8 param, void *value )
     case SENS_SCALE_FACTOR_DENOM_PARAM:  
       *(int32 *)value = sens_Scale_Factor_Denom;
       break;
-      
+ 
     default:
       ret = INVALIDPARAMETER;
       break;
@@ -1601,6 +1643,11 @@ static uint8 sens_ReadAttrCB( uint16 connHandle, gattAttribute_t *pAttr,
       pValue[0] = sensRefVoltageSource;
       break;
 
+    case NUSOCKET_LIGHT_ON_UUID:  
+      *pLen = 1;
+      pValue[0] = nuSOCKET_LightOn;
+      break;
+      
     case SENS_SHORT_CAPTION_UUID:
       *pLen = SENS_SHORT_CAPTION_SIZE;
       for (i=0; i<SENS_SHORT_CAPTION_SIZE; i++)
@@ -1622,7 +1669,7 @@ static uint8 sens_ReadAttrCB( uint16 connHandle, gattAttribute_t *pAttr,
       pValue[2] = BREAK_UINT32 ((uint32)sens_Scale_Factor_Denom,2);
       pValue[3] = BREAK_UINT32 ((uint32)sens_Scale_Factor_Denom,3);
       break;
-      
+       
     default:
       status = ATT_ERR_ATTR_NOT_FOUND;
       
@@ -1681,6 +1728,7 @@ static bStatus_t sens_WriteAttrCB( uint16 connHandle, gattAttribute_t *pAttr,
     case SENS_R_LOAD_UUID:
     case SENS_INT_Z_SEL_UUID:
     case SENS_REF_VOLTAGE_SOURCE_UUID:
+    case NUSOCKET_LIGHT_ON_UUID:
       if ( offset > 0 )
       {
         status = ATT_ERR_ATTR_NOT_LONG;
@@ -1774,6 +1822,21 @@ void get_SensHardwareSettings (uint8 *modeOp, uint8 *tiaGain, uint8 *rLoad, uint
    *rLoad = sensRLoad;
    *intZSel = sensIntZSel;
    *refVoltageSource = sensRefVoltageSource;
+}
+
+/**************************************************************************************************
+ * @fn          get_nuSOCKET_LightSettings
+ *
+ * @brief       Returns the nuSOCKET light characteristics
+ *
+ * @param[out]  uint8 *lightOn - nuSOCKET Light Control 
+ *
+ * @return      none
+ **************************************************************************************************
+ */
+void get_nuSOCKET_LightSettings (uint8 *lightOn)
+{
+   *lightOn = nuSOCKET_LightOn;
 }
 /*********************************************************************
 *********************************************************************/

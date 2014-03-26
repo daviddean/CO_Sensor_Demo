@@ -50,8 +50,10 @@ extern "C"
 #define SENS_R_LOAD_PARAM                       18
 #define SENS_INT_Z_SEL_PARAM                    19
 #define SENS_REF_VOLTAGE_SOURCE_PARAM           20
-#define SENS_SCALE_FACTOR_NUM_PARAM             21
-#define SENS_SCALE_FACTOR_DENOM_PARAM           22
+#define NUSOCKET_LIGHT_ON_PARAM                 21
+#define SENS_SCALE_FACTOR_NUM_PARAM             22
+#define SENS_SCALE_FACTOR_DENOM_PARAM           23
+
     
 // Heart Rate Service UUIDs
 #define SENS_SERV_UUID                          0x2D8D
@@ -80,6 +82,9 @@ extern "C"
 #define SENS_R_LOAD_UUID                        0x2DBD
 #define SENS_INT_Z_SEL_UUID                     0x2DBE
 #define SENS_REF_VOLTAGE_SOURCE_UUID            0x2DBF
+#define NUSOCKET_LIGHT_ON_UUID                  0x2DC0
+//#define NUSOCKET_LIGHT_DIM_UUID                     0x2DC1
+//#define NUSOCKET_OUTAGE_DETECT_UUID                 0x2DC2
 #define SENS_SHORT_CAPTION_UUID                 0x2E00    
 #define SENS_SCALE_FACTOR_NUM_UUID              0x2E01    
 #define SENS_SCALE_FACTOR_DENOM_UUID            0x2E02
@@ -195,6 +200,7 @@ extern void sens_HandleConnStatusCB( uint16 connHandle, uint8 changeType );
 
 extern void get_SensHardwareSettings (uint8 *modeOp, uint8 *tiaGain, uint8 *rLoad, uint8 *refVoltageSource, uint8 *intZSel);
 
+extern void get_nuSOCKET_LightSettings(uint8 *lightOn);
 
 #ifdef __cplusplus
 }

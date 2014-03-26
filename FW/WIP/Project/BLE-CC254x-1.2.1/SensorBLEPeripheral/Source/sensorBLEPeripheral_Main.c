@@ -56,9 +56,7 @@
 #include "OSAL_PwrMgr.h"
 #include "osal_snv.h"
 #include "OnBoard.h"
-
 #include "sensorBLEPeripheral.h"
-
 #include "TI_LMP91000.h"
 #include "TI_CC2541_LMP91000_i2c.h"
 #include "TI_LMP91000_register_settings.h"
@@ -392,6 +390,7 @@ uint16 DataUpdate_ProcessEvent(uint8 task_id, uint16 events)
     int16 tempavg;
     uint16 timeval;
     uint16 sensorval;
+    
 #if USE_SEPARATE_TEMP_AD_CHANNEL==0
     uint8 lmp_configured;
     uint8 lmp_configure_tries;
@@ -609,6 +608,9 @@ sensorval = fakesensorval;
         DataReadyFlag = 1;
         
         #endif
+       
+         // Set the light control I/O (LightOn=1 =>  P1_1=0)
+        nuSOCKET_updateLight();
         
         // Also, set P1_0 (the LED) as an output, and drive low  
         P1DIR = P1DIR | 0x01; 
