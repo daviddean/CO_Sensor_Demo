@@ -21,6 +21,8 @@
 #define SENS_INT_Z_REF_DIVIDER                  INT_Z_SEL_20_PERCENT
 #define SENS_REF_SOURCE                         REF_SOURCE_EXTERNAL
 
+// Default settings for the light control
+#define NUSOCKET_LIGHT_ON                       0              //light is off by default
 
 // Parameters used by iPhone/iPad app for graphing data
 #define SENS_Y_DISPLAY_MAX                      2000
@@ -37,10 +39,10 @@
 
 
 // Note that 19 character maximum for Characteristic strings, that is 18 characters + \0!!!
-#define SENS_GRAPH_TITLE                        "Carbon Monoxide\0"
-#define SENS_GRAPH_TITLE_SIZE                   16
-#define SENS_GRAPH_SUBTITLE                     "Using the LMP91000\0"
-#define SENS_GRAPH_SUBTITLE_SIZE                19
+#define SENS_GRAPH_TITLE                        "nuSOCKET Platform\0"
+#define SENS_GRAPH_TITLE_SIZE                   18
+#define SENS_GRAPH_SUBTITLE                     "Carbon Monoxide\0"
+#define SENS_GRAPH_SUBTITLE_SIZE                16
 #define SENS_GRAPH_X_AXIS_CAPTION               "Time in seconds\0"
 #define SENS_GRAPH_X_AXIS_CAPTION_SIZE          16
 #define SENS_GRAPH_Y_AXIS_CAPTION               "CO (ppm)\0"    
